@@ -1,26 +1,54 @@
-import logo from "./logo.svg";
-import "./App.css";
-import React, { useEffect, useState } from "react";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
 
 function App() {
-  const [message, setMessage] = useState("");
-
-  useEffect(() => {
-    fetch("/api/hello")
-      .then((res) => res.json())
-      .then((data) => setMessage(data.message));
-  }, []);
-
   return (
-    <div>
-      <h1>{message || "Loading..."}</h1>
-      <button class="button is-white">White</button>
-      <button class="button is-light">Light</button>
-      <button class="button is-dark">Dark</button>
-      <button class="button is-black">Black</button>
-      <button class="button is-text">Text</button>
-      <button class="button is-ghost">Ghost</button>
-    </div>
+    <Router>
+      {/* <nav class="panel">
+        <p class="panel-heading">Repositories</p>
+        <div class="panel-block">
+          <p class="control has-icons-left">
+            <input class="input" type="text" placeholder="Search" />
+            <span class="icon is-left">
+              <i class="fas fa-search" aria-hidden="true"></i>
+            </span>
+          </p>
+        </div>
+        <p class="panel-tabs">
+          <a class="is-active">All</a>
+          <a>Public</a>
+          <a>Private</a>
+          <a>Sources</a>
+          <a>Forks</a>
+        </p>
+        <Link to="/" className="panel-block">
+          <span className="panel-icon">
+            <i className="fas fa-home" aria-hidden="true"></i>
+          </span>
+          Home
+        </Link>
+
+        <Link to="/about" className="panel-block">
+          <span className="panel-icon">
+            <i className="fas fa-info-circle" aria-hidden="true"></i>
+          </span>
+          About
+        </Link>
+        <div class="panel-block">
+          <button class="button is-link is-outlined is-fullwidth">
+            Reset all filters
+          </button>
+        </div>
+      </nav> */}
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
