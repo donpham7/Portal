@@ -1,4 +1,12 @@
-from flask import Blueprint, jsonify, request, Flask, send_from_directory, send_file,  json
+from flask import (
+    Blueprint,
+    jsonify,
+    request,
+    Flask,
+    send_from_directory,
+    send_file,
+    json,
+)
 from flask import abort
 from .helper import get_file_path, get_patient_info, parse_pdf_contents, llm_process
 import os
@@ -6,11 +14,17 @@ import os
 app = Flask(__name__)
 main = Blueprint("main", __name__)
 
-UPLOADS_FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", "uploads"))
-# USERS_FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", "users"))
-
-app.config['UPLOAD_FOLDER'] = UPLOADS_FOLDER
-os.makedirs(UPLOADS_FOLDER, exist_ok=True)
+UPLOAD_FOLDER = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "..", "data", "uploads")
+)
+USERS_FOLDER = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "..", "data", "users")
+)
+REPORTS_FOLDER = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "..", "data", "reports")
+)
+app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 
 @main.route("/api/upload", methods=["POST"])
@@ -22,6 +36,7 @@ def upload():
 
     Returns:
     """
+
 
     if 'file' not in request.files:
         return "No file part", 400
@@ -42,8 +57,7 @@ def file(folder, filename):
     return send_file(file_path)
 
 
-
-@main.route('/api/patient_info/<path:folder>/<path:filename>')
+@main.route("/api/patient_info/<path:folder>/<path:filename>")
 def patient_info(folder, filename):
     """Retrieves patient info"""
 
@@ -51,15 +65,62 @@ def patient_info(folder, filename):
     return get_patient_info(file_path)
 
 
-
-
-@main.route('/api/parse_pdf/<path:folder>/<path:filename>')
+@main.route("/api/parse_pdf/<path:folder>/<path:filename>")
 def parse_pdf(folder, filename):
     """Taking pdf and storing in a json: all words, per page a dictionary of text and coordinates"""
 
     file_path = get_file_path(folder, filename)
     return parse_pdf_contents(file_path)
 
+
+@main.route("/api/get_reports/<int:user_id>")
+def get_reports(user_id):
+    print(user_id)
+    """Retrieves reports JSONs by user ID"""
+    folder_path = REPORTS_FOLDER + "/" + "user_id" + str(user_id)
+
+    json_list = []
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+        if os.path.isfile(file_path):
+            with open(file_path, "r") as f:
+                json_list.append(json.load(f))
+    print("Got reports")
+    return jsonify(json_list), 200
+
+
+@main.route("/api/get_tasks/<int:user_id>")
+def get_tasks(user_id):
+    print(user_id)
+    """Retrieves reports JSONs by user ID"""
+    folder_path = REPORTS_FOLDER + "/" + "user_id" + str(user_id)
+
+    tasks = []
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+        if os.path.isfile(file_path):
+            with open(file_path, "r") as f:
+                tasks.extend(json.load(f)["tasks"])
+    print("Got tasks")
+    return jsonify(tasks), 200
+
+
+@main.route("/api/get_patients/")
+def get_patients():
+    print()
+    """Retrieves all patients"""
+    folder_path = USERS_FOLDER
+
+    patients = []
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+        if os.path.isfile(file_path):
+            with open(file_path, "r") as f:
+                userData = json.load(f)
+                if userData["role"] == "patient":
+                    patients.append(userData)
+    print("Got Patients")
+    return jsonify(patients), 200
     
 @main.route('/api/parse_pdf/<path:folder>/<path:filename>')
 def llm(folder, filename):

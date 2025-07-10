@@ -1,0 +1,13 @@
+{
+  "role": "patient",
+  "username": "madison18",
+  "password": "securePass!123",
+  "user_id": 1,
+  "patient_info": {
+    "name": "Madison Michels",
+    "notes": "Patient is mildy healthy. Mom says she can be impulsive at times",
+    "age": 21,
+    "medical_id": "med-1002",
+    "conditions": []
+  }
+}
