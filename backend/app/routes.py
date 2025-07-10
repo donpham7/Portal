@@ -20,6 +20,10 @@ UPLOAD_FOLDER = os.path.abspath(
 USERS_FOLDER = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..", "..", "data", "users")
 )
+REPORTS_FOLDER = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "..", "data", "reports")
+)
+# USERS_FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", "users"))
 
 REPORTS_FOLDER = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..", "..", "data", "reports")
