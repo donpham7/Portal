@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify, request, Flask, send_from_directory, send_file,  json
 from flask import abort
-from .helper import get_file_path, get_patient_info, parse_pdf_contents
+from .helper import get_file_path, get_patient_info, parse_pdf_contents, llm_process
 import os
 
 app = Flask(__name__)
@@ -61,6 +61,14 @@ def parse_pdf(folder, filename):
     return parse_pdf_contents(file_path)
 
     
+@main.route('/api/parse_pdf/<path:folder>/<path:filename>')
+def llm(folder, filename):
+    """Taking parsed pdf data and patient info, running in LLM, storing in a json:
+      filename, patient id, doctor id, key details, personal takeaways, tasks"""
+
+    file_path = get_file_path(folder, filename)
+    return llm_process(file_path)
+
 
 
 
