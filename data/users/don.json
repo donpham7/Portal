@@ -1,12 +1,13 @@
 {
-  "role": "admin",
+  "role": "patient",
   "username": "don123",
   "password": "securePass!123",
-  "user_id": "u001",
+  "user_id": 1,
   "patient_info": {
     "name": "Don Pham",
+    "notes": "Patient is very healthy. Great athlete and may go to the NBA one day",
     "age": 22,
-    "medical_id": "med-4427",
+    "medical_id": "med-1001",
     "conditions": ["hypertension", "mild asthma"]
   }
 }

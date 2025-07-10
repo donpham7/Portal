@@ -13,6 +13,9 @@ USERS_FOLDER = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..", "..", "data", "users")
 )
 
+REPORTS_FOLDER = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "..", "data", "reports")
+)
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
@@ -59,6 +62,56 @@ def get_patient_info(filename):
         return jsonify({"error": f"{filename} not found"}), 404
     except json.JSONDecodeError:
         return jsonify({"error": "Malformed JSON file"}), 500
+
+
+@main.route("/api/get_reports/<int:user_id>")
+def get_reports(user_id):
+    print(user_id)
+    """Retrieves reports JSONs by user ID"""
+    folder_path = REPORTS_FOLDER + "/" + "user_id" + str(user_id)
+
+    json_list = []
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+        if os.path.isfile(file_path):
+            with open(file_path, "r") as f:
+                json_list.append(json.load(f))
+    print("Got reports")
+    return jsonify(json_list), 200
+
+
+@main.route("/api/get_tasks/<int:user_id>")
+def get_tasks(user_id):
+    print(user_id)
+    """Retrieves reports JSONs by user ID"""
+    folder_path = REPORTS_FOLDER + "/" + "user_id" + str(user_id)
+
+    tasks = []
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+        if os.path.isfile(file_path):
+            with open(file_path, "r") as f:
+                tasks.extend(json.load(f)["tasks"])
+    print("Got tasks")
+    return jsonify(tasks), 200
+
+
+@main.route("/api/get_patients/")
+def get_patients():
+    print()
+    """Retrieves all patients"""
+    folder_path = USERS_FOLDER
+
+    patients = []
+    for filename in os.listdir(folder_path):
+        file_path = os.path.join(folder_path, filename)
+        if os.path.isfile(file_path):
+            with open(file_path, "r") as f:
+                userData = json.load(f)
+                if userData["role"] == "patient":
+                    patients.append(userData)
+    print("Got Patients")
+    return jsonify(patients), 200
 
 
 app.register_blueprint(main)

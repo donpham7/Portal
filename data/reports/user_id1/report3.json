@@ -1,5 +1,7 @@
 {
-    "patient_id": 1,
+    "file_name": "report 3",
+    "report_id": 3,
+    "user_id": 1,
     "tasks": ["Take Meds", "Sleep 8 hours"],
     "summary": "Please take your meds and sleep"
 }
