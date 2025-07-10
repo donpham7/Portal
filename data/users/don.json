@@ -1,0 +1,12 @@
+{
+  "role": "admin",
+  "username": "don123",
+  "password": "securePass!123",
+  "user_id": "u001",
+  "patient_info": {
+    "name": "Don Pham",
+    "age": 22,
+    "medical_id": "med-4427",
+    "conditions": ["hypertension", "mild asthma"]
+  }
+}
