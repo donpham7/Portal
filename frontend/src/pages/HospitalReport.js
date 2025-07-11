@@ -4,17 +4,32 @@ import {
   Route,
   Lin,
   useNavigate,
+  useParams,
 } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 
-// http://localhost:3000/hospital/report/4/UMNwriteup.pdf
-
-
-
 export default function HospitalReport() {
-  const [showStackedSections, setShowStackedSections] = useState(false);
-
-  
+  const { user_id, report_name } = useParams();
+  const [report, setReport] = useState(null);
+  console.log();
+  useEffect(() => {
+    const report_url = "/api/get_report/" + user_id + "/" + report_name;
+    fetch(report_url)
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`HTTP error! Status: ${res.status}`);
+        }
+        return res.json();
+      })
+      .then((data) => {
+        console.log(data);
+        setReport(data);
+      })
+      .catch((err) => {
+        // Error message
+        console.log(err);
+      });
+  }, []); // Empty dependency array = run only once on mount
   return (
     <section className="section">
       <div className="container">
@@ -24,6 +39,10 @@ export default function HospitalReport() {
             <div className="box">
               <h2 className="title">Document</h2>
               <p>This is your document content. It remains visible at all times.</p>
+              <p>User ID: {user_id}</p>
+              <p>Report ID: {report_name}</p>
+
+
             </div>
           </div>
 
@@ -67,4 +86,6 @@ export default function HospitalReport() {
     </section>
   );
 
+
+  
 }

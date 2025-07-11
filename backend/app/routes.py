@@ -105,6 +105,21 @@ def get_reports(user_id):
     return jsonify(json_list), 200
 
 
+@main.route("/api/get_report/<int:user_id>/<string:report_name>")
+def get_report(user_id, report_name):
+    print(user_id)
+    print(report_name)
+    """Retrieves reports JSONs by user ID"""
+    file_path = (
+        REPORTS_FOLDER + "/" + "user_id" + str(user_id) + "/" + report_name + ".json"
+    )
+
+    with open(file_path, "r") as f:
+        report = json.load(f)
+    print("Got report")
+    return jsonify(report), 200
+
+
 @main.route("/api/get_tasks/<int:user_id>")
 def get_tasks(user_id):
     print(user_id)
