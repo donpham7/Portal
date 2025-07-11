@@ -136,4 +136,19 @@ def get_patients():
     return jsonify(patients), 200
 
 
+@main.route(
+    "/api/llm/<path:pdf_folder>/<path:pdf_filename>/<path:patient_folder>/<path:patient_filename>"
+)
+def llm(pdf_folder, pdf_filename, patient_folder, patient_filename):
+    """Taking parsed pdf data and patient info, running in LLM, storing in a json:
+    filename, patient id, doctor id, key details, personal takeaways, tasks
+    http://localhost:5000/api/llm/uploads/UMNwriteup.pdf/users/pamela.json
+    """
+
+    pdf_file_path = get_file_path(pdf_folder, pdf_filename)
+    patient_info_file_path = get_file_path(patient_folder, patient_filename)
+    result = llm_process(pdf_file_path, patient_info_file_path)
+    return result
+
+
 app.register_blueprint(main)
