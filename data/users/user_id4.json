@@ -2,7 +2,7 @@
   "role": "patient",
   "username": "jacques",
   "password": "securePass!123",
-  "user_id": 1,
+  "user_id": 4,
   "patient_info": {
     "name": "Jacques Harris",
     "notes": "Patient is a 1/1 specimen. Has stated that the Gophers are better than the Wolverines and his heart lies with the Gophers",

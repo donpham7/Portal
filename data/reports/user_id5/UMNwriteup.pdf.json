@@ -1,0 +1,1213 @@
+[
+    {
+        "filename": "Pamela_Rogers_Medical_Report.pdf",
+        "key_details": {
+            "ASCVD": "Atherosclerotic Cardiovascular Disease (a condition where arteries harden and narrow)",
+            "BUN/Creatinine": "blood tests to check kidney function",
+            "Bimanual examination": "exam using two hands to feel internal organs",
+            "Bunionectomy": "surgery to remove a bunion (a bump on the foot)",
+            "Carotid artery": "main artery in the neck",
+            "Cranial nerves II-XII": "nerves coming directly from the brain",
+            "Cystic changes in the breasts": "non-cancerous fluid-filled sacs in the breasts",
+            "Fibrocystic breast disease": "a common non-cancerous breast condition with lumpy or ropy texture",
+            "Fundoscopic examination": "exam of the back of the eye with a special light",
+            "GERD sx": "symptoms of acid reflux",
+            "Gait": "way of walking",
+            "Gastro-esophageal reflux disease (GERD)": "acid reflux, where stomach acid flows back into the food pipe",
+            "HMG Co-reductases": "a class of cholesterol-lowering medications, also known as statins",
+            "HTN": "high blood pressure",
+            "Jugular venous pressure": "pressure in the neck veins, reflecting heart function",
+            "Lumbosacral back pain": "lower back pain",
+            "Motor and sensory examination": "tests of muscle movement and feeling",
+            "NSAID": "non-steroidal anti-inflammatory drug (like ibuprofen)",
+            "PMI": "point where the heart beat is strongest on the chest",
+            "Pelvic examination": "exam of the female reproductive organs",
+            "Peripheral pulses": "pulses in the arms and legs",
+            "TAH with BSO": "surgery to remove the uterus and both ovaries",
+            "Total abdominal hysterectomy and bilateral oophorectomy": "surgery to remove the uterus and both ovaries through an incision in the belly",
+            "Trachea": "windpipe",
+            "Tympanic membranes": "eardrums",
+            "adenopathy": "swollen glands",
+            "analgesic": "pain reliever",
+            "angina pectoris": "chest pain due to reduced blood flow to the heart muscle",
+            "anterior tibial areas": "front of the shin areas",
+            "aortic stenosis": "narrowing of the aortic valve, which controls blood flow out of the heart",
+            "apex": "bottom tip of the heart",
+            "arthralgias": "joint pain",
+            "auscultation": "listening with a stethoscope",
+            "baseline EKG": "initial heart tracing",
+            "brachial areas": "upper arm areas",
+            "bruit": "unusual sound in a blood vessel",
+            "bruits": "unusual sounds in blood vessels",
+            "cardiac catheterization": "a procedure to check the heart and blood vessels using a thin tube inserted into an artery",
+            "cerebellar function": "balance and coordination",
+            "cervical areas": "neck areas",
+            "cervix": "lower part of the uterus",
+            "cholesterol level": "amount of fat-like substance in your blood",
+            "cimetidine": "a medication used to treat ulcers",
+            "claudication": "leg pain when walking due to poor circulation",
+            "clubbing": "changes in fingers and toes due to long-term low oxygen",
+            "congestive heart failure": "a condition where the heart can't pump enough blood to meet the body's needs",
+            "conjunctiva": "clear membrane covering the white part of the eye",
+            "coronary artery disease": "heart disease where arteries narrow",
+            "crackles": "crackling sounds in the lungs",
+            "cyanosis": "bluish discoloration of the skin due to lack of oxygen",
+            "distention": "swelling or bloating",
+            "diuretics": "water pills that help the body get rid of excess fluid",
+            "dorsalis pedis areas": "top of the foot areas",
+            "dysphagia": "difficulty swallowing",
+            "dyspnea": "shortness of breath",
+            "dysuria": "painful urination",
+            "early surgical menopause": "menopause caused by surgery at a younger age",
+            "edema": "swelling from fluid retention",
+            "electrolytes": "minerals in the blood (like sodium and potassium)",
+            "epigastric pain": "pain in the upper middle part of the abdomen",
+            "erythema": "redness",
+            "exertional dyspnea": "shortness of breath with activity",
+            "external genitalia": "outer reproductive organs",
+            "exudate": "pus or fluid",
+            "femoral areas": "groin areas",
+            "guaiac negative": "no blood found in the stool",
+            "hematuria": "blood in the urine",
+            "hemorrhage": "bleeding",
+            "hormone replacement therapy": "treatment to replace hormones",
+            "hypertensive retinopathy": "damage to the blood vessels in the eye due to high blood pressure",
+            "inguinal areas": "groin areas",
+            "inter-costal space": "space between the ribs",
+            "ischemic cardiac origin": "caused by a lack of blood flow to the heart",
+            "left ventricular dysfunction": "the main pumping chamber of the heart isn't working as well as it should",
+            "left ventricular hypertrophy": "thickening of the main pumping chamber of the heart",
+            "liver span": "size of the liver",
+            "lung bases": "bottom parts of the lungs",
+            "mid clavicular line": "middle of the collarbone line",
+            "myocardial infarction": "heart attack",
+            "myocardial ischemia": "lack of blood flow to the heart muscle",
+            "nitrates": "medications that relax blood vessels and improve blood flow",
+            "nocturia": "waking up at night to urinate",
+            "non-invasive tests": "tests that don't involve breaking the skin",
+            "occlusion": "blockage of a blood vessel",
+            "orthopnea": "shortness of breath when lying flat",
+            "ovaries": "female reproductive glands",
+            "palpable pain": "pain that can be felt by touch",
+            "para-sternal area": "area next to your breastbone",
+            "paraumbilical area": "area around the belly button",
+            "paroxysmal nocturnal dyspnea": "sudden shortness of breath at night that wakes you up",
+            "peptic ulcer disease": "sores in the stomach or the first part of the small intestine",
+            "percussion": "tapping on the body to listen to sounds",
+            "platelet inhibitors": "medications that prevent blood clots",
+            "polyuria": "urinating very often",
+            "popliteal areas": "behind the knee areas",
+            "premature CAD": "early coronary artery disease",
+            "pretest probability": "likelihood of a condition being present before testing",
+            "pulmonary component": "related to the lungs",
+            "radial areas": "wrist areas",
+            "radiated": "spread to",
+            "rectal sphincter tone": "muscle control around the rectum",
+            "recumbency": "lying down",
+            "renovascular hypertension": "high blood pressure caused by narrowing of the arteries to the kidneys",
+            "sclera": "white part of the eye",
+            "second right inter-costal space": "area between the second and third ribs on the right side of the chest",
+            "secondary cause of hypertension": "high blood pressure caused by another underlying condition",
+            "speculum examination": "exam using a device to widen the vagina",
+            "splenomegaly": "enlarged spleen",
+            "supraclavicular areas": "collarbone areas",
+            "systolic decrescendo murmur": "a specific type of heart sound heard during heart contraction that gets softer",
+            "thyroid gland": "gland in the neck that controls metabolism",
+            "unstable angina": "chest pain that is worsening or occurring at rest, indicating a serious heart condition",
+            "upstroke": "the way your pulse feels",
+            "uterine fibroids": "non-cancerous growths in the uterus",
+            "uterus": "womb",
+            "vagina": "birth canal",
+            "valvular heart disease": "problem with one of the heart's valves",
+            "ventriculogram": "an imaging test that shows how well the main pumping chamber of the heart is working",
+            "volume overload": "too much fluid in the body",
+            "wall motion abnormalities": "parts of the heart muscle not moving normally"
+        },
+        "personal_takeaways": "Pamela Rogers has been experiencing new chest pain that suggests a serious heart issue called unstable angina, which means the blood flow to her heart muscle isn't enough and is getting worse, potentially leading to a heart attack. This is concerning, especially since her father had a heart attack at a younger age, and she has high blood pressure that may be related to narrowed kidney arteries, along with having had a hysterectomy and ovary removal at a younger age. Her shortness of breath might be due to her heart not pumping effectively, possibly leading to congestive heart failure. There's also a specific sound in her heart that might mean a heart valve is narrowing. Beyond her heart, she has ongoing stomach pain (possibly related to past ulcers and ibuprofen use), lower back pain, and common non-cancerous changes in her breasts. The plan is to keep a close eye on her heart condition in the hospital, start her on medications to prevent blood clots and improve blood flow to her heart, and give her water pills to help with her breathing and blood pressure. She will need a special procedure called a cardiac catheterization to get a detailed look at her heart and blood vessels. Long-term, it's important for her to manage her cholesterol, start an exercise routine, lose weight, and eat a low-fat diet."
+    },
+    {
+        "1. Take Aspirin Daily": "Purpose: To help prevent blood clots and reduce the risk of a heart attack.",
+        "10. Attend Lab Work Appointments": "Purpose: Go to all your scheduled appointments for blood tests and heart tracings (like an EKG) to monitor your kidney function and other important health levels.",
+        "2. Take Nitrates as Prescribed": "Purpose: To help relax blood vessels, ease chest pain, and lower blood pressure. Take these as instructed by your doctor, especially if you experience chest pain.",
+        "3. Take Pain Medication (if needed)": "Purpose: If your chest pain is severe and nitrates don't help, take any additional pain medicine prescribed by your doctor.",
+        "4. Start and Follow an Exercise Program": "Purpose: Begin and stick to a suitable exercise routine once you are discharged to improve your heart health and overall well-being.",
+        "5. Work on a Weight Loss Program": "Purpose: Actively work towards losing weight to improve your heart health and manage your blood pressure.",
+        "6. Eat a Low-Fat Diet": "Purpose: Choose foods that are low in fat to help manage your cholesterol and improve your heart health.",
+        "7. Take Cholesterol-Lowering Medication (if prescribed)": "Purpose: If your cholesterol is high, take the medicine your doctor gives you (like a statin) exactly as prescribed.",
+        "8. Attend Your Cardiac Catheterization Appointment": "Purpose: This is an important procedure to get a detailed look at your heart and blood vessels to help your doctors plan the best treatment.",
+        "9. Take Diuretics (Water Pills) as Prescribed": "Purpose: These medications will help your body get rid of excess fluid, which can ease shortness of breath and help lower your blood pressure."
+    },
+    {
+        "ASCVD": {
+            "bbox": [
+                [
+                    136.47061157226562,
+                    289.5154724121094,
+                    167.51882934570312,
+                    299.5594482421875
+                ],
+                [
+                    219.15234375,
+                    486.1367492675781,
+                    250.12855529785156,
+                    496.18072509765625
+                ]
+            ],
+            "page": "page_5"
+        },
+        "BUN/Creatinine": {
+            "bbox": [
+                [
+                    195.9556884765625,
+                    372.3148498535156,
+                    258.3841552734375,
+                    382.35882568359375
+                ],
+                [
+                    195.9556884765625,
+                    372.3148498535156,
+                    258.3841552734375,
+                    382.35882568359375
+                ]
+            ],
+            "page": "page_6"
+        },
+        "Bimanual examination": {
+            "bbox": [
+                [
+                    218.2103729248047,
+                    82.51534271240234,
+                    255.6540069580078,
+                    92.55934143066406
+                ],
+                [
+                    36.0,
+                    92.8950424194336,
+                    84.5217056274414,
+                    102.93904113769531
+                ]
+            ],
+            "page": "page_4"
+        },
+        "Bunionectomy": {
+            "bbox": [
+                [
+                    90.00209045410156,
+                    703.45458984375,
+                    147.05130004882812,
+                    713.4985961914062
+                ],
+                [
+                    90.00209045410156,
+                    703.45458984375,
+                    147.05130004882812,
+                    713.4985961914062
+                ]
+            ],
+            "page": "page_1"
+        },
+        "Carotid artery": {
+            "bbox": [
+                [
+                    216.14276123046875,
+                    372.3158264160156,
+                    245.14524841308594,
+                    382.35980224609375
+                ],
+                [
+                    247.6580352783203,
+                    372.3158264160156,
+                    270.68902587890625,
+                    382.35980224609375
+                ]
+            ],
+            "page": "page_3"
+        },
+        "Cranial nerves II-XII": {
+            "bbox": [
+                [
+                    36.0,
+                    123.91536712646484,
+                    64.489501953125,
+                    133.95936584472656
+                ],
+                [
+                    96.55651092529297,
+                    123.91536712646484,
+                    115.5105209350586,
+                    133.95936584472656
+                ]
+            ],
+            "page": "page_4"
+        },
+        "Fibrocystic breast disease": {
+            "bbox": [
+                [
+                    89.97808837890625,
+                    682.756103515625,
+                    137.8931884765625,
+                    692.8001098632812
+                ],
+                [
+                    169.93405151367188,
+                    682.756103515625,
+                    202.98831176757812,
+                    692.8001098632812
+                ]
+            ],
+            "page": "page_5"
+        },
+        "Fundoscopic examination": {
+            "bbox": [
+                [
+                    35.999691009521484,
+                    237.79542541503906,
+                    87.00269317626953,
+                    247.8394317626953
+                ],
+                [
+                    89.57130432128906,
+                    237.79542541503906,
+                    138.08580017089844,
+                    247.8394317626953
+                ]
+            ],
+            "page": "page_3"
+        },
+        "Gait": {
+            "bbox": [
+                [
+                    36.0,
+                    144.61537170410156,
+                    52.47899627685547,
+                    154.6593780517578
+                ],
+                [
+                    36.0,
+                    144.61537170410156,
+                    52.47899627685547,
+                    154.6593780517578
+                ]
+            ],
+            "page": "page_4"
+        },
+        "Gastro-esophageal reflux disease (GERD)": {
+            "bbox": [
+                [
+                    97.56419372558594,
+                    248.11537170410156,
+                    174.0425567626953,
+                    258.15936279296875
+                ],
+                [
+                    234.62149047851562,
+                    248.11537170410156,
+                    266.571533203125,
+                    258.15936279296875
+                ]
+            ],
+            "page": "page_5"
+        },
+        "HTN": {
+            "bbox": [
+                [
+                    35.999664306640625,
+                    568.935791015625,
+                    54.56576919555664,
+                    578.9797973632812
+                ],
+                [
+                    145.55162048339844,
+                    434.4155578613281,
+                    164.11952209472656,
+                    444.45953369140625
+                ]
+            ],
+            "page": "page_4"
+        },
+        "Jugular venous pressure": {
+            "bbox": [
+                [
+                    213.15921020507812,
+                    382.6955261230469,
+                    242.6602783203125,
+                    392.739501953125
+                ],
+                [
+                    35.99969482421875,
+                    393.0158386230469,
+                    71.0348892211914,
+                    403.059814453125
+                ]
+            ],
+            "page": "page_3"
+        },
+        "Lumbosacral back pain": {
+            "bbox": [
+                [
+                    90.02339935302734,
+                    486.1358947753906,
+                    141.48809814453125,
+                    496.17987060546875
+                ],
+                [
+                    165.50184631347656,
+                    486.1358947753906,
+                    182.52532958984375,
+                    496.17987060546875
+                ]
+            ],
+            "page": "page_4"
+        },
+        "Motor and sensory examination": {
+            "bbox": [
+                [
+                    168.54928588867188,
+                    123.91536712646484,
+                    191.51007080078125,
+                    133.95936584472656
+                ],
+                [
+                    36.0,
+                    134.29505920410156,
+                    84.48570251464844,
+                    144.3390655517578
+                ]
+            ],
+            "page": "page_4"
+        },
+        "NSAID": {
+            "bbox": [
+                [
+                    187.53627014160156,
+                    630.9764404296875,
+                    215.52267456054688,
+                    641.0204467773438
+                ],
+                [
+                    187.53627014160156,
+                    630.9764404296875,
+                    215.52267456054688,
+                    641.0204467773438
+                ]
+            ],
+            "page": "page_5"
+        },
+        "PMI": {
+            "bbox": [
+                [
+                    255.32504272460938,
+                    434.4158630371094,
+                    271.3090515136719,
+                    444.4598388671875
+                ],
+                [
+                    255.32504272460938,
+                    434.4158630371094,
+                    271.3090515136719,
+                    444.4598388671875
+                ]
+            ],
+            "page": "page_3"
+        },
+        "Peripheral pulses": {
+            "bbox": [
+                [
+                    214.68441772460938,
+                    600.0147094726562,
+                    255.7028045654297,
+                    610.0587158203125
+                ],
+                [
+                    36.000301361083984,
+                    610.3350219726562,
+                    62.01840591430664,
+                    620.3790283203125
+                ]
+            ],
+            "page": "page_3"
+        },
+        "TAH with BSO": {
+            "bbox": [
+                [
+                    35.999664306640625,
+                    610.3357543945312,
+                    54.07976531982422,
+                    620.3797607421875
+                ],
+                [
+                    74.93547821044922,
+                    610.3357543945312,
+                    93.9236831665039,
+                    620.3797607421875
+                ]
+            ],
+            "page": "page_1"
+        },
+        "Trachea": {
+            "bbox": [
+                [
+                    196.53440856933594,
+                    361.9955139160156,
+                    229.5814971923828,
+                    372.03948974609375
+                ],
+                [
+                    196.53440856933594,
+                    361.9955139160156,
+                    229.5814971923828,
+                    372.03948974609375
+                ]
+            ],
+            "page": "page_3"
+        },
+        "Tympanic membranes": {
+            "bbox": [
+                [
+                    35.999691009521484,
+                    268.8157653808594,
+                    74.97329711914062,
+                    278.8597412109375
+                ],
+                [
+                    77.4959945678711,
+                    268.8157653808594,
+                    125.01419067382812,
+                    278.8597412109375
+                ]
+            ],
+            "page": "page_3"
+        },
+        "adenopathy": {
+            "bbox": [
+                [
+                    233.55227661132812,
+                    351.6158142089844,
+                    280.61328125,
+                    361.6597900390625
+                ],
+                [
+                    233.55227661132812,
+                    351.6158142089844,
+                    280.61328125,
+                    361.6597900390625
+                ]
+            ],
+            "page": "page_3"
+        },
+        "analgesic": {
+            "bbox": [
+                [
+                    165.98611450195312,
+                    496.5155944824219,
+                    203.95713806152344,
+                    506.5595703125
+                ],
+                [
+                    198.09503173828125,
+                    186.0147247314453,
+                    236.13169860839844,
+                    196.05873107910156
+                ]
+            ],
+            "page": "page_6"
+        },
+        "angina pectoris": {
+            "bbox": [
+                [
+                    207.61622619628906,
+                    103.15499114990234,
+                    236.66282653808594,
+                    113.19898986816406
+                ],
+                [
+                    35.99967956542969,
+                    186.0153350830078,
+                    67.43309020996094,
+                    196.05934143066406
+                ]
+            ],
+            "page": "page_5"
+        },
+        "auscultation": {
+            "bbox": [
+                [
+                    110.5746078491211,
+                    424.0955505371094,
+                    158.50677490234375,
+                    434.1395263671875
+                ],
+                [
+                    110.5746078491211,
+                    424.0955505371094,
+                    158.50677490234375,
+                    434.1395263671875
+                ]
+            ],
+            "page": "page_3"
+        },
+        "bruit": {
+            "bbox": [
+                [
+                    36.00030517578125,
+                    558.61474609375,
+                    53.46930694580078,
+                    568.6587524414062
+                ],
+                [
+                    274.06591796875,
+                    455.0561218261719,
+                    294.1251525878906,
+                    465.10009765625
+                ]
+            ],
+            "page": "page_5"
+        },
+        "cardiac catheterization": {
+            "bbox": [
+                [
+                    101.53411102294922,
+                    279.1944885253906,
+                    130.52490234375,
+                    289.23846435546875
+                ],
+                [
+                    133.033203125,
+                    279.1944885253906,
+                    191.49264526367188,
+                    289.23846435546875
+                ]
+            ],
+            "page": "page_6"
+        },
+        "cerebellar function": {
+            "bbox": [
+                [
+                    72.49861145019531,
+                    144.61537170410156,
+                    111.99781799316406,
+                    154.6593780517578
+                ],
+                [
+                    114.5106201171875,
+                    144.61537170410156,
+                    146.00881958007812,
+                    154.6593780517578
+                ]
+            ],
+            "page": "page_4"
+        },
+        "cervix": {
+            "bbox": [
+                [
+                    82.52460479736328,
+                    82.51534271240234,
+                    106.03530883789062,
+                    92.55934143066406
+                ],
+                [
+                    82.52460479736328,
+                    82.51534271240234,
+                    106.03530883789062,
+                    92.55934143066406
+                ]
+            ],
+            "page": "page_4"
+        },
+        "congestive heart failure": {
+            "bbox": [
+                [
+                    201.5717010498047,
+                    424.0951843261719,
+                    244.55386352539062,
+                    434.13916015625
+                ],
+                [
+                    35.99967956542969,
+                    434.4154968261719,
+                    60.53367614746094,
+                    444.45947265625
+                ]
+            ],
+            "page": "page_5"
+        },
+        "conjunctiva": {
+            "bbox": [
+                [
+                    148.45465087890625,
+                    227.4157257080078,
+                    193.3997039794922,
+                    237.45973205566406
+                ],
+                [
+                    148.45465087890625,
+                    227.4157257080078,
+                    193.3997039794922,
+                    237.45973205566406
+                ]
+            ],
+            "page": "page_3"
+        },
+        "crackles": {
+            "bbox": [
+                [
+                    78.04861450195312,
+                    434.4158630371094,
+                    111.05790710449219,
+                    444.4598388671875
+                ],
+                [
+                    78.04861450195312,
+                    434.4158630371094,
+                    111.05790710449219,
+                    444.4598388671875
+                ]
+            ],
+            "page": "page_3"
+        },
+        "diuretics": {
+            "bbox": [
+                [
+                    79.50660705566406,
+                    320.5945129394531,
+                    112.9884033203125,
+                    330.63848876953125
+                ],
+                [
+                    79.50660705566406,
+                    320.5945129394531,
+                    112.9884033203125,
+                    330.63848876953125
+                ]
+            ],
+            "page": "page_6"
+        },
+        "dyspnea": {
+            "bbox": [
+                [
+                    164.12994384765625,
+                    299.8951110839844,
+                    198.1319122314453,
+                    309.9390869140625
+                ],
+                [
+                    144.04647827148438,
+                    320.5945129394531,
+                    178.08444213867188,
+                    330.63848876953125
+                ]
+            ],
+            "page": "page_6"
+        },
+        "early surgical menopause": {
+            "bbox": [
+                [
+                    35.99967956542969,
+                    154.99501037597656,
+                    55.513484954833984,
+                    165.0390167236328
+                ],
+                [
+                    91.51438903808594,
+                    154.99501037597656,
+                    138.57449340820312,
+                    165.0390167236328
+                ]
+            ],
+            "page": "page_5"
+        },
+        "edema": {
+            "bbox": [
+                [
+                    139.076416015625,
+                    600.0147094726562,
+                    166.6352996826172,
+                    610.0587158203125
+                ],
+                [
+                    139.076416015625,
+                    600.0147094726562,
+                    166.6352996826172,
+                    610.0587158203125
+                ]
+            ],
+            "page": "page_3"
+        },
+        "electrolytes": {
+            "bbox": [
+                [
+                    141.4940643310547,
+                    382.6945495605469,
+                    186.9710235595703,
+                    392.738525390625
+                ],
+                [
+                    141.4940643310547,
+                    382.6945495605469,
+                    186.9710235595703,
+                    392.738525390625
+                ]
+            ],
+            "page": "page_6"
+        },
+        "erythema": {
+            "bbox": [
+                [
+                    160.1816864013672,
+                    310.2157897949219,
+                    197.63516235351562,
+                    320.259765625
+                ],
+                [
+                    160.1816864013672,
+                    310.2157897949219,
+                    197.63516235351562,
+                    320.259765625
+                ]
+            ],
+            "page": "page_3"
+        },
+        "hypertensive retinopathy": {
+            "bbox": [
+                [
+                    46.01128005981445,
+                    506.8367614746094,
+                    97.00167083740234,
+                    516.8807373046875
+                ],
+                [
+                    99.55767059326172,
+                    506.8367614746094,
+                    144.0842742919922,
+                    516.8807373046875
+                ]
+            ],
+            "page": "page_5"
+        },
+        "inter-costal space": {
+            "bbox": [
+                [
+                    82.02179718017578,
+                    444.7350158691406,
+                    125.98499298095703,
+                    454.77899169921875
+                ],
+                [
+                    133.9841766357422,
+                    465.4350280761719,
+                    158.00875854492188,
+                    475.47900390625
+                ]
+            ],
+            "page": "page_3"
+        },
+        "left ventricular hypertrophy": {
+            "bbox": [
+                [
+                    164.0975341796875,
+                    506.8367614746094,
+                    176.0792236328125,
+                    516.8807373046875
+                ],
+                [
+                    222.62448120117188,
+                    506.8367614746094,
+                    270.1039733886719,
+                    516.8807373046875
+                ]
+            ],
+            "page": "page_5"
+        },
+        "liver span": {
+            "bbox": [
+                [
+                    137.0712127685547,
+                    568.93505859375,
+                    153.53219604492188,
+                    578.9790649414062
+                ],
+                [
+                    156.11880493164062,
+                    568.93505859375,
+                    175.60379028320312,
+                    578.9790649414062
+                ]
+            ],
+            "page": "page_3"
+        },
+        "lung bases": {
+            "bbox": [
+                [
+                    163.65745544433594,
+                    434.4158630371094,
+                    180.6836395263672,
+                    444.4598388671875
+                ],
+                [
+                    183.1802215576172,
+                    434.4158630371094,
+                    207.2255096435547,
+                    444.4598388671875
+                ]
+            ],
+            "page": "page_3"
+        },
+        "myocardial infarction": {
+            "bbox": [
+                [
+                    167.09727478027344,
+                    123.9146957397461,
+                    210.64466857910156,
+                    133.9586944580078
+                ],
+                [
+                    213.1466522216797,
+                    123.9146957397461,
+                    249.593017578125,
+                    133.9586944580078
+                ]
+            ],
+            "page": "page_6"
+        },
+        "nitrates": {
+            "bbox": [
+                [
+                    143.5991668701172,
+                    165.31471252441406,
+                    173.07864379882812,
+                    175.3587188720703
+                ],
+                [
+                    99.13109588623047,
+                    196.39442443847656,
+                    128.58538818359375,
+                    206.4384307861328
+                ]
+            ],
+            "page": "page_6"
+        },
+        "non-invasive tests": {
+            "bbox": [
+                [
+                    217.51519775390625,
+                    279.1944885253906,
+                    268.057373046875,
+                    289.23846435546875
+                ],
+                [
+                    35.99969482421875,
+                    289.5148010253906,
+                    54.95369338989258,
+                    299.55877685546875
+                ]
+            ],
+            "page": "page_6"
+        },
+        "occlusion": {
+            "bbox": [
+                [
+                    266.629150390625,
+                    165.31471252441406,
+                    304.11236572265625,
+                    175.3587188720703
+                ],
+                [
+                    266.629150390625,
+                    165.31471252441406,
+                    304.11236572265625,
+                    175.3587188720703
+                ]
+            ],
+            "page": "page_6"
+        },
+        "para-sternal area": {
+            "bbox": [
+                [
+                    122.05772399902344,
+                    299.8950500488281,
+                    170.080810546875,
+                    309.93902587890625
+                ],
+                [
+                    172.58909606933594,
+                    299.8950500488281,
+                    190.63409423828125,
+                    309.93902587890625
+                ]
+            ],
+            "page": "page_1"
+        },
+        "peptic ulcer disease": {
+            "bbox": [
+                [
+                    130.47750854492188,
+                    268.8154602050781,
+                    154.49398803710938,
+                    278.85943603515625
+                ],
+                [
+                    178.97125244140625,
+                    475.8155822753906,
+                    209.99513244628906,
+                    485.85955810546875
+                ]
+            ],
+            "page": "page_4"
+        },
+        "percussion": {
+            "bbox": [
+                [
+                    178.51193237304688,
+                    424.0955505371094,
+                    222.07369995117188,
+                    434.1395263671875
+                ],
+                [
+                    178.51193237304688,
+                    424.0955505371094,
+                    222.07369995117188,
+                    434.1395263671875
+                ]
+            ],
+            "page": "page_3"
+        },
+        "pretest probability": {
+            "bbox": [
+                [
+                    106.48590850830078,
+                    289.5148010253906,
+                    133.91790771484375,
+                    299.55877685546875
+                ],
+                [
+                    136.4261932373047,
+                    289.5148010253906,
+                    177.56875610351562,
+                    299.55877685546875
+                ]
+            ],
+            "page": "page_6"
+        },
+        "pulmonary component": {
+            "bbox": [
+                [
+                    35.99967956542969,
+                    310.2154235839844,
+                    78.04588317871094,
+                    320.2593994140625
+                ],
+                [
+                    80.5523910522461,
+                    310.2154235839844,
+                    125.05199432373047,
+                    320.2593994140625
+                ]
+            ],
+            "page": "page_5"
+        },
+        "radial areas": {
+            "bbox": [
+                [
+                    90.01022338867188,
+                    620.7147216796875,
+                    112.00892639160156,
+                    630.7587280273438
+                ],
+                [
+                    114.51902770996094,
+                    620.7147216796875,
+                    137.0136260986328,
+                    630.7587280273438
+                ]
+            ],
+            "page": "page_3"
+        },
+        "radiated": {
+            "bbox": [
+                [
+                    210.683349609375,
+                    299.8950500488281,
+                    243.236328125,
+                    309.93902587890625
+                ],
+                [
+                    210.683349609375,
+                    299.8950500488281,
+                    243.236328125,
+                    309.93902587890625
+                ]
+            ],
+            "page": "page_1"
+        },
+        "sclera": {
+            "bbox": [
+                [
+                    104.46270751953125,
+                    227.4157257080078,
+                    128.40269470214844,
+                    237.45973205566406
+                ],
+                [
+                    104.46270751953125,
+                    227.4157257080078,
+                    128.40269470214844,
+                    237.45973205566406
+                ]
+            ],
+            "page": "page_3"
+        },
+        "second right inter-costal space": {
+            "bbox": [
+                [
+                    36.00029754638672,
+                    465.4350280761719,
+                    65.02169799804688,
+                    475.47900390625
+                ],
+                [
+                    133.9841766357422,
+                    465.4350280761719,
+                    158.00875854492188,
+                    475.47900390625
+                ]
+            ],
+            "page": "page_3"
+        },
+        "splenomegaly": {
+            "bbox": [
+                [
+                    36.00030517578125,
+                    568.93505859375,
+                    91.58971405029297,
+                    578.9790649414062
+                ],
+                [
+                    36.00030517578125,
+                    568.93505859375,
+                    91.58971405029297,
+                    578.9790649414062
+                ]
+            ],
+            "page": "page_3"
+        },
+        "systolic decrescendo murmur": {
+            "bbox": [
+                [
+                    76.53631591796875,
+                    455.1147155761719,
+                    106.02210998535156,
+                    465.15869140625
+                ],
+                [
+                    162.59426879882812,
+                    455.1147155761719,
+                    193.54527282714844,
+                    465.15869140625
+                ]
+            ],
+            "page": "page_3"
+        },
+        "thyroid gland": {
+            "bbox": [
+                [
+                    53.50650405883789,
+                    372.3158264160156,
+                    80.53710174560547,
+                    382.35980224609375
+                ],
+                [
+                    83.04991149902344,
+                    372.3158264160156,
+                    105.10350799560547,
+                    382.35980224609375
+                ]
+            ],
+            "page": "page_3"
+        },
+        "upstroke": {
+            "bbox": [
+                [
+                    35.99969482421875,
+                    382.6955261230469,
+                    70.45169830322266,
+                    392.739501953125
+                ],
+                [
+                    164.97866821289062,
+                    600.0164184570312,
+                    199.48374938964844,
+                    610.0604248046875
+                ]
+            ],
+            "page": "page_5"
+        },
+        "vagina": {
+            "bbox": [
+                [
+                    36.0,
+                    82.51534271240234,
+                    62.48609924316406,
+                    92.55934143066406
+                ],
+                [
+                    36.0,
+                    82.51534271240234,
+                    62.48609924316406,
+                    92.55934143066406
+                ]
+            ],
+            "page": "page_4"
+        },
+        "valvular heart disease": {
+            "bbox": [
+                [
+                    199.50619506835938,
+                    568.936767578125,
+                    230.47515869140625,
+                    578.9807739257812
+                ],
+                [
+                    256.0189514160156,
+                    568.936767578125,
+                    287.0347900390625,
+                    578.9807739257812
+                ]
+            ],
+            "page": "page_5"
+        },
+        "ventriculogram": {
+            "bbox": [
+                [
+                    65.50531005859375,
+                    341.2945251464844,
+                    124.54170989990234,
+                    351.3385009765625
+                ],
+                [
+                    65.50531005859375,
+                    341.2945251464844,
+                    124.54170989990234,
+                    351.3385009765625
+                ]
+            ],
+            "page": "page_6"
+        },
+        "volume overload": {
+            "bbox": [
+                [
+                    46.00230026245117,
+                    330.9148254394531,
+                    74.94630432128906,
+                    340.95880126953125
+                ],
+                [
+                    77.45551300048828,
+                    330.9148254394531,
+                    112.00830841064453,
+                    340.95880126953125
+                ]
+            ],
+            "page": "page_6"
+        }
+    }
+]
