@@ -17,7 +17,7 @@ export default function PatientDashboard() {
         return res.json();
       })
       .then((data) => {
-        console.log(data);
+        console.log("reports", data);
         setReports(data);
       })
       .catch((err) => {
@@ -33,7 +33,6 @@ export default function PatientDashboard() {
         return res.json();
       })
       .then((data) => {
-        console.log(data);
         setTasks(data);
       })
       .catch((err) => {
@@ -55,11 +54,14 @@ export default function PatientDashboard() {
             </p>
           </div>
           {reports.map((report, index) => (
-            <Link to={`report/${report.report_id}`} className="panel-block">
+            <Link
+              to={`report/${patientId}/${report.filename}`}
+              className="panel-block"
+            >
               <span className="panel-icon">
                 <i className="fas fa-home" aria-hidden="true"></i>
               </span>
-              {report.file_name}
+              {report.data[0].filename}
             </Link>
           ))}
         </nav>

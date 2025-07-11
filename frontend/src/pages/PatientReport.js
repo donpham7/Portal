@@ -32,25 +32,6 @@ function ReportItem({ keyName, value }) {
       }}
     >
       <strong>{keyName}:</strong> {value}
-      <div style={{ marginTop: "0.5rem" }}>
-        <button
-          className="button is-small is-success"
-          style={{ marginRight: "0.5rem" }}
-          onClick={handleAccept}
-        >
-          Accept
-        </button>
-        <button
-          className="button is-small is-danger"
-          style={{ marginRight: "0.5rem" }}
-          onClick={handleDecline}
-        >
-          Decline
-        </button>
-        <button className="button is-small is-warning" onClick={handleEdit}>
-          Edit
-        </button>
-      </div>
     </li>
   );
 }
@@ -73,25 +54,6 @@ function PersonalTakeaway({ value }) {
   return (
     <div style={{ marginBottom: "1.5rem" }}>
       <strong>Personal Takeaway:</strong> {value}
-      <div style={{ marginTop: "0.5rem" }}>
-        <button
-          className="button is-small is-success"
-          style={{ marginRight: "0.5rem" }}
-          onClick={handleAccept}
-        >
-          Accept
-        </button>
-        <button
-          className="button is-small is-danger"
-          style={{ marginRight: "0.5rem" }}
-          onClick={handleDecline}
-        >
-          Decline
-        </button>
-        <button className="button is-small is-warning" onClick={handleEdit}>
-          Edit
-        </button>
-      </div>
     </div>
   );
 }
@@ -112,36 +74,11 @@ function TaskItem({ taskName, taskData, onAccept, onDecline, onEdit }) {
       <p>
         <strong>Purpose:</strong> {taskData.purpose}
       </p>
-
-      <div style={{ marginTop: "0.5rem" }}>
-        <button
-          className="button is-small is-success"
-          style={{ marginRight: "0.5rem" }}
-          onClick={() => onAccept(taskName)}
-        >
-          Accept
-        </button>
-
-        <button
-          className="button is-small is-danger"
-          style={{ marginRight: "0.5rem" }}
-          onClick={() => onDecline(taskName)}
-        >
-          Decline
-        </button>
-
-        <button
-          className="button is-small is-warning"
-          onClick={() => onEdit(taskName)}
-        >
-          Edit
-        </button>
-      </div>
     </li>
   );
 }
 
-export default function HospitalReport() {
+export default function PatientReport() {
   const { user_id, report_name } = useParams();
   const [report, setReport] = useState(null);
   const [showStackedSections, setShowStackedSections] = useState(false);
@@ -256,7 +193,7 @@ export default function HospitalReport() {
                   )}
                 </div>
                 <button
-                  className="button is-primary"
+                  className="button is-primary is-fullwidth"
                   onClick={() => setShowStackedSections(true)}
                 >
                   Next
@@ -300,15 +237,13 @@ export default function HospitalReport() {
                 </div>
               </div>
             )}
-            {showStackedSections && (
-              <button
-                class="button is-primary is-fullwidth"
-                style={{ marginTop: 15 }}
-                onClick={() => navigate("/hospital")}
-              >
-                Send to user
-              </button>
-            )}
+            <button
+              class="button is-primary is-fullwidth"
+              style={{ marginTop: 15 }}
+              onClick={() => navigate("/patient")}
+            >
+              Go home
+            </button>
           </div>
         </div>
       </div>

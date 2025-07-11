@@ -1,157 +1,198 @@
 [
     {
-        "filename": "Medical Report Sample",
+        "filename": "Pamela Rogers Medical Report",
         "key_details": {
-            "BUN/Creatinine": "blood tests to check kidney function",
-            "Bimanual examination": "exam where doctor uses both hands to feel pelvic organs",
-            "Bunionectomy": "surgery to remove a bunion (a bony bump on your foot)",
-            "Carotid artery upstroke": "strength of the pulse in your neck arteries",
-            "Chest pain": "discomfort in your chest",
-            "Cranial nerves": "nerves that control various functions like sight, hearing, and movement",
-            "Cystic changes": "fluid-filled sacs",
-            "Diuretics": "medications that help your body get rid of excess fluid",
-            "Dyspnea": "shortness of breath",
-            "Epigastric pain": "pain in the upper middle part of your abdomen",
-            "Fibrocystic breast disease": "a common, non-cancerous condition causing lumpy, painful breasts",
-            "Fundoscopic examination": "eye exam looking at the back of your eye",
-            "GERD sx": "symptoms of acid reflux",
+            "ASCVD": "Atherosclerotic Cardiovascular Disease (a condition where plaque builds up in your arteries, narrowing them and making it harder for blood to flow through)",
+            "BUN/Creatinine": "blood tests that measure kidney function",
+            "Bimanual examination": "an exam where the doctor uses both hands to feel your internal organs",
+            "Bunionectomy": "surgery to remove a bony bump on your toe",
+            "Carotid artery upstroke": "the feeling of your pulse in your neck arteries",
+            "Cranial nerves II-XII": "the twelve pairs of nerves that come directly from your brain",
+            "Cystic changes": "fluid-filled sacs or lumps",
+            "Fibrocystic breast disease": "a common condition where your breasts feel lumpy or rope-like",
+            "Fundoscopic examination": "eye exam using a special light to look at the back of your eye",
+            "GERD": "acid reflux, where stomach acid comes back up into your esophagus",
             "Gait": "how you walk",
-            "Gastro-esophageal reflux disease (GERD)": "acid reflux, where stomach acid flows back into the food pipe",
-            "HMG Co-reductases": "a type of cholesterol-lowering medication (like statins)",
+            "Gastro-esophageal reflux disease": "a condition where stomach acid frequently flows back into the tube connecting your mouth and stomach",
+            "HMG Co-reductases": "a class of cholesterol-lowering medications, also known as statins",
             "HTN": "high blood pressure",
-            "Hypertension": "high blood pressure",
-            "Jugular venous pressure": "pressure in the veins of your neck",
-            "Lumbosacral back pain": "lower back pain",
-            "Motor examination": "tests of muscle strength",
-            "NSAID use": "use of non-steroidal anti-inflammatory drugs (pain relievers)",
+            "Jugular venous pressure": "the pressure in the veins of your neck, which can show how well your heart is pumping",
+            "Motor and sensory examination": "tests of your muscle strength, movement, and ability to feel sensations",
             "Nasal mucosa": "lining inside your nose",
-            "Nodes": "lymph glands",
+            "OTC ibuprofen": "over-the-counter pain reliever like Advil",
             "Oral pharynx": "back of your throat",
-            "PMI": "point where your heartbeat is best felt",
-            "Penicillin allergy": "an allergic reaction to penicillin",
-            "Peripheral pulses": "pulses in your arms and legs",
-            "Platelet inhibitors": "medications that make your blood less likely to clot",
+            "PMI": "Point of Maximal Impulse (the strongest point where your heart beat can be felt on your chest)",
+            "Pelvic examination": "an exam of your female reproductive organs",
+            "Peripheral pulses": "pulses felt in your arms and legs",
             "Reflexes": "automatic body responses",
-            "Systolic murmur": "an unusual heart sound heard when the heart pumps blood",
-            "TAH with BSO": "surgery to remove your uterus and both ovaries",
+            "TAH with BSO": "Total Abdominal Hysterectomy with Bilateral Salpingo-Oophorectomy (surgery to remove your uterus, fallopian tubes, and ovaries through an incision in your abdomen)",
             "Trachea": "windpipe",
             "Tympanic membranes": "eardrums",
-            "adenopathy": "swollen glands",
+            "adenopathy": "swollen lymph nodes",
             "analgesic": "pain reliever",
-            "angina pectoris": "chest pain due to reduced blood flow to the heart",
-            "anterior tibial": "front of your shin",
-            "aortic stenosis": "narrowing of the aortic valve in the heart",
-            "aortic valvular murmur": "a heart sound from the aortic valve",
-            "apex": "bottom tip of the heart",
+            "angina pectoris": "chest pain due to reduced blood flow to the heart muscle",
+            "anterior tibial": "relating to the front of the shin",
+            "aortic stenosis": "narrowing of the aortic valve, which controls blood flow from your heart to your body",
+            "apex": "the tip of your heart",
             "arthralgias": "joint pain",
             "aspirin": "a medication that thins your blood",
             "auscultation": "listening with a stethoscope",
-            "baseline EKG": "initial heart tracing test",
+            "baseline EKG": "a recording of your heart's electrical activity taken as a starting point",
             "bilaterally": "on both sides",
             "bowel sounds": "sounds made by your intestines",
-            "brachial": "upper arm",
-            "bruits": "unusual sounds in blood vessels",
-            "cardiac catheterization": "a procedure where a thin tube is inserted into a blood vessel to check the heart",
-            "cerebellar function": "coordination and balance",
-            "cervical": "neck",
-            "cholesterol-lowering medication": "medication to lower cholesterol",
+            "brachial": "relating to the arm",
+            "bruits": "unusual whooshing sounds heard over blood vessels",
+            "cardiac catheterization": "a procedure where a thin, flexible tube is inserted into a blood vessel and guided to your heart to diagnose or treat heart conditions",
+            "cerebellar function": "the part of your brain that controls balance and coordination",
+            "cervical": "relating to your neck",
+            "cervix": "the opening to your uterus",
+            "cholesterol": "a waxy, fat-like substance found in your blood",
             "cimetidine": "a medication used to treat stomach ulcers",
-            "claudication": "leg pain due to poor blood flow when walking",
-            "clubbing": "enlargement of fingertips or toes with downward curving nails",
-            "congestive heart failure": "a condition where the heart can't pump enough blood to meet the body's needs",
-            "conjunctiva": "clear membrane covering the white part of your eye and inner eyelids",
-            "coronary artery disease": "narrowing of the arteries that supply blood to the heart",
-            "crackles": "small clicking, bubbling, or rattling sounds in the lungs",
-            "cyanosis": "bluish discoloration of skin due to lack of oxygen",
-            "distention": "swelling",
-            "dorsalis pedis": "top of your foot",
+            "claudication": "cramping pain in your leg muscles, usually during exercise, due to poor blood flow",
+            "clubbing": "changes in the shape of your fingers and nails, often related to lung or heart disease",
+            "congestive heart failure": "a condition where your heart can't pump enough blood to meet your body's needs",
+            "coronary artery disease": "narrowing or blockage of the arteries that supply blood to the heart",
+            "crackles": "crackling sounds heard in your lungs, like Rice Krispies",
+            "cyanosis": "bluish discoloration of the skin due to lack of oxygen",
+            "distention": "swelling or bloating",
+            "diuretics": "medications that help your body get rid of excess fluid",
+            "dorsalis pedis": "relating to the top of the foot",
             "dysphagia": "difficulty swallowing",
+            "dyspnea": "difficulty breathing",
             "dysuria": "painful urination",
-            "early ASCVD": "hardening and narrowing of the arteries that starts earlier than typical",
             "edema": "swelling caused by fluid buildup",
-            "electrolytes": "minerals in your body like sodium, potassium",
-            "epigastric pain": "pain in the upper middle part of your abdomen",
+            "electrolytes": "minerals in your blood and other body fluids that have an electric charge",
+            "epigastric pain": "pain in the upper middle part of your abdomen, below your ribs",
             "erythema": "redness",
-            "exertional dyspnea": "shortness of breath when you do physical activity",
-            "external auditory canals": "outer ear canals",
-            "external genitalia": "outer private parts",
-            "exudate": "pus or fluid",
-            "femoral": "groin area",
-            "guaiac negative": "no hidden blood found in stool",
+            "exertional dyspnea": "difficulty breathing when you do physical activity",
+            "external auditory canals": "ear canals",
+            "external genitalia": "outer female sex organs",
+            "exudate": "fluid leaking out of tissues",
+            "femoral": "relating to the thigh or groin",
+            "guaiac negative": "no hidden blood found in your stool",
             "hematuria": "blood in your urine",
             "hemorrhage": "bleeding",
-            "hives": "itchy, raised red welts on the skin",
-            "hormone replacement therapy": "medication to replace hormones",
-            "hypertensive retinopathy": "damage to the eye's retina due to high blood pressure",
-            "ibuprofen": "a common pain reliever",
-            "incoordination": "difficulty with muscle control",
+            "hives": "itchy, raised welts on the skin",
+            "hypertension": "high blood pressure",
+            "hypertensive retinopathy": "damage to the blood vessels in your eye caused by high blood pressure",
+            "impending myocardial infarction": "a heart attack about to happen",
             "inguinal areas": "groin areas",
-            "inter-costal space": "area between your ribs",
-            "ischemic cardiac origin": "coming from the heart due to lack of blood flow",
-            "left ventricular dysfunction": "the main pumping chamber of your heart isn't working well",
-            "left ventricular hypertrophy": "thickening of the main pumping chamber of the heart",
-            "liver span": "size of your liver",
-            "mid clavicular line": "middle of your collarbone",
+            "inter-costal space": "the space between your ribs",
+            "ischemic cardiac origin": "caused by a lack of blood flow to the heart",
+            "left ventricular dysfunction": "when the main pumping chamber of your heart (the left ventricle) isn't working as well as it should",
+            "left ventricular hypertrophy": "enlargement and thickening of the main pumping chamber of your heart",
+            "liver span": "the size of your liver as measured by tapping",
+            "lung bases": "bottom parts of your lungs",
+            "mid clavicular line": "an imaginary line down the middle of your collarbone",
             "morphine": "a strong pain reliever",
-            "myocardial infarction": "heart attack",
-            "myocardial ischemia": "lack of blood flow to the heart muscle",
-            "nitrates": "medications that widen blood vessels to improve blood flow",
+            "myocardial ischemia": "lack of blood flow and oxygen to the heart muscle",
+            "nitrates": "medications that widen your blood vessels to improve blood flow and relieve chest pain",
             "nocturia": "waking up at night to urinate",
-            "non-invasive tests": "medical tests that do not involve breaking the skin",
-            "non-pharmacologic measures": "treatment without medications",
-            "occlusion": "blockage",
-            "orthopnea": "shortness of breath when lying flat",
-            "ovaries": "female reproductive organs that produce eggs",
-            "palpable pain": "pain that can be felt by touch",
-            "palpitations": "feeling like your heart is racing or skipping beats",
-            "para-sternal area": "area next to the breastbone",
-            "paraumbilical area": "area around your belly button",
-            "paroxysmal nocturnal dyspnea": "sudden shortness of breath that wakes you up at night",
-            "peptic ulcer disease": "sores in the lining of your stomach or upper small intestine",
-            "percussion": "tapping on the body to listen to sounds",
-            "pharmacologic measures": "treatment using medications",
-            "polyuria": "urinating much more than usual",
-            "popliteal": "back of your knee",
-            "premature CAD": "heart disease that develops earlier than expected",
-            "pretest probability": "the likelihood of a condition being present before doing a test",
-            "pulmonary component": "part related to your lungs",
-            "pulmonary infection": "lung infection",
-            "radial areas": "wrist area",
+            "non-invasive tests": "medical tests that do not involve breaking the skin or entering the body",
+            "occlusion": "a blockage",
+            "orthopnea": "difficulty breathing when lying flat",
+            "ovaries": "female reproductive glands",
+            "palpitations": "feeling your heart beat unusually fast or hard",
+            "para-sternal area": "the area next to your breastbone",
+            "paraumbilical area": "the area around your belly button",
+            "paroxysmal nocturnal dyspnea": "sudden episodes of difficulty breathing that wake you up at night",
+            "peptic ulcer disease": "sores in the lining of your stomach or small intestine",
+            "percussion": "tapping on your body to listen to the sounds",
+            "platelet inhibitors": "medications that prevent blood clots, like aspirin",
+            "polyuria": "urinating a lot",
+            "popliteal": "relating to the back of the knee",
+            "premature CAD": "early-onset coronary artery disease (heart disease where blood vessels become narrowed)",
+            "pretest probability": "the likelihood of a condition being present before any tests are done",
+            "pulmonary component": "a problem related to your lungs",
+            "pulmonary infection": "a lung infection",
+            "radial areas": "relating to the forearm or wrist",
             "radiated": "spread to",
+            "radiates to the neck": "spreads up to your neck",
             "rash": "skin irritation",
-            "rectal sphincter tone": "muscle control around the rectum",
-            "renal artery": "artery to your kidney",
-            "renovascular hypertension": "high blood pressure caused by kidney artery problems",
-            "sclera": "white part of your eye",
-            "secondary cause of hypertension": "another medical problem causing high blood pressure",
-            "sensory examination": "tests of feeling",
-            "shortness of breath": "difficulty breathing",
-            "speculum examination": "exam using a tool to widen the vagina",
+            "rectal sphincter tone": "the tightness of the muscle that controls your rectum",
+            "recumbency": "lying down",
+            "renal artery": "artery that supplies blood to your kidney",
+            "renovascular hypertension": "high blood pressure caused by narrowing of the arteries to your kidneys",
+            "second right inter-costal space": "the space between your second and third ribs on the right side of your chest",
+            "secondary cause of hypertension": "high blood pressure caused by another medical condition",
+            "speculum examination": "an exam using a tool to widen the vagina",
             "splenomegaly": "enlarged spleen",
-            "supraclavicular areas": "areas above the collarbones",
-            "systolic decrescendo murmur": "a heart sound heard during heart's contraction that fades out",
-            "thyroid gland": "a gland in your neck that controls metabolism",
-            "unstable angina": "severe chest pain that occurs at rest and may indicate a heart attack is near",
+            "supraclavicular areas": "areas above your collarbones",
+            "systolic decrescendo murmur": "a specific type of abnormal heart sound heard when your heart contracts and fades away",
+            "telemetry floor": "a hospital unit where your heart rhythm is continuously monitored",
+            "third heart sound": "an extra, abnormal sound heard during heart relaxation, often a sign of heart issues",
+            "thyroid gland": "a gland in your neck that produces hormones",
+            "unstable angina": "a serious type of chest pain that can happen at rest and is a warning sign of a heart attack",
+            "uterine fibroids": "non-cancerous growths in your uterus",
             "uterus": "womb",
-            "valvular heart disease": "problems with the heart valves",
-            "ventriculogram": "an X-ray of a heart chamber",
-            "volume overload": "too much fluid in the body",
-            "wall motion abnormalities": "problems with how the heart muscle moves"
+            "vagina": "birth canal",
+            "valvular heart disease": "problems with your heart valves",
+            "ventriculogram": "an imaging test that takes pictures of your heart's pumping chambers",
+            "volume overload": "too much fluid in your body",
+            "wall motion abnormalities": "parts of your heart muscle not moving properly"
         },
-        "personal_takeaways": "Based on your symptoms, especially the chest pain, we believe you are experiencing a serious heart issue called angina, which means your heart muscle isn't getting enough blood flow. This is particularly concerning because the pain is becoming more frequent and now happens even when you're resting, suggesting an unstable condition. We need to monitor you very closely to prevent a heart attack. You have some risk factors for heart disease, including high blood pressure and a family history. We will start you on medications to help thin your blood, open up your blood vessels, and reduce your pain. We also need to address your difficulty breathing, which might be due to your heart not pumping as effectively, leading to fluid buildup. We will give you medication to help remove this extra fluid, which will also help your blood pressure. Further tests will be necessary to get a clearer picture of your heart's condition, including a special procedure to look directly at your heart's arteries. Managing your cholesterol with diet, exercise, and possibly medication will also be a key part of your long-term health plan."
+        "personal_takeaways": "This summary is for Pamela Rogers, the patient described in the medical report. You're experiencing chest pain, called angina, which we believe is because your heart isn't getting enough blood. Because your pain is getting worse and happening even when you're resting, we're very concerned about 'unstable angina,' which means we need to treat it quickly to prevent a heart attack. You have several risk factors, including high blood pressure, a family history of heart disease, and having your ovaries removed early. We've also noticed some fluid in your lungs and an unusual heart sound, suggesting your heart might not be pumping fluid as strongly as it should. There's also a possibility that your high blood pressure could be linked to the blood vessels in your kidneys. Our plan involves keeping you in the hospital to monitor your heart closely, giving you medications to help your heart and prevent blood clots, helping you get rid of extra fluid, and performing a procedure called a 'cardiac catheterization' to directly examine the blood vessels in your heart and assess how well it's pumping. We'll also check your cholesterol and discuss healthy lifestyle changes for when you go home."
     },
     {
-        "1. Take Aspirin Daily": "Purpose: To help prevent blood clots and reduce your risk of a heart attack.",
-        "2. Take Nitrates as Prescribed": "Purpose: To help widen your blood vessels, reduce chest pain, and lower your blood pressure.",
-        "3. Take Analgesic for Severe Pain": "Purpose: If your chest pain is very severe and nitrates do not help, you may be prescribed a stronger pain reliever like morphine. Use only as directed.",
-        "4. Monitor Your Cholesterol Levels": "Purpose: Work with your doctor to ensure your cholesterol levels are checked regularly. If high, you may need to take specific cholesterol-lowering medication (HMG Co-reductases/Statins).",
-        "5. Follow an Exercise Program": "Purpose: Begin and maintain a suitable exercise routine as advised by your doctor to improve your heart health.",
-        "6. Work on Weight Loss": "Purpose: Follow a recommended plan to lose weight, which can greatly benefit your overall health and heart condition.",
-        "7. Eat a Low-Fat Diet": "Purpose: Choose foods that are low in fat to help manage your cholesterol and support your heart health.",
-        "8. Take Diuretics as Directed": "Purpose: These medications will help your body get rid of excess fluid, improve your breathing, and help lower your blood pressure.",
-        "9. Complete Scheduled Lab Work": "Purpose: Ensure you get your blood tests done (including BUN/Creatinine for kidney function and electrolytes) and have your initial heart tracing (EKG) completed as planned by your doctor. This helps us understand your body's functions and heart health."
+        "1. Take Aspirin": {
+            "action": "Take aspirin regularly as prescribed by your doctor.",
+            "purpose": "This medicine helps prevent blood clots and reduces the risk of a heart attack."
+        },
+        "10. Attend Lab Tests": {
+            "action": "Go for your scheduled blood tests (like BUN/Creatinine and electrolytes) and EKG.",
+            "purpose": "These tests help your doctor check your kidney function, body chemicals, and heart's electrical activity."
+        },
+        "2. Use Nitrates for Chest Pain": {
+            "action": "Take nitrates as instructed by your doctor, especially if you experience chest pain. If pain continues after taking nitrates, tell your medical team right away.",
+            "purpose": "Nitrates help widen your blood vessels to improve blood flow to your heart and relieve chest pain."
+        },
+        "3. Monitor Your Cholesterol": {
+            "action": "Get your cholesterol levels checked regularly as scheduled by your doctor.",
+            "purpose": "This helps make sure your cholesterol is at a healthy level for your heart."
+        },
+        "4. Start an Exercise Program": {
+            "action": "Begin and consistently follow the exercise plan given to you by your doctor or physical therapist.",
+            "purpose": "Regular exercise is important for your heart and overall health."
+        },
+        "5. Follow a Weight Loss Program": {
+            "action": "Follow the weight loss program recommended by your doctor.",
+            "purpose": "Managing your weight is crucial for your heart health."
+        },
+        "6. Eat a Low-Fat Diet": {
+            "action": "Choose foods that are low in fat.",
+            "purpose": "A low-fat diet is very important for lowering cholesterol and supporting your heart health."
+        },
+        "7. Consider Cholesterol Medicine (Statins)": {
+            "action": "If your cholesterol is high, your doctor may prescribe a cholesterol-lowering medication, sometimes called a statin. Take it exactly as directed.",
+            "purpose": "This medicine helps lower unhealthy cholesterol levels in your body."
+        },
+        "8. Schedule Your Heart Catheterization": {
+            "action": "Attend your appointment to schedule the cardiac catheterization procedure.",
+            "purpose": "This procedure allows doctors to look closely at the blood vessels around your heart."
+        },
+        "9. Take Diuretics for Breathing": {
+            "action": "Take your diuretic medication exactly as prescribed.",
+            "purpose": "Diuretics help your body get rid of excess fluid, which can make breathing easier and help lower blood pressure."
+        }
     },
     {
+        "ASCVD": {
+            "bbox": [
+                [
+                    136.47061157226562,
+                    289.5154724121094,
+                    167.51882934570312,
+                    299.5594482421875
+                ],
+                [
+                    219.15234375,
+                    486.1367492675781,
+                    250.12855529785156,
+                    496.18072509765625
+                ]
+            ],
+            "page": "page_5"
+        },
         "BUN/Creatinine": {
             "bbox": [
                 [
@@ -220,24 +261,7 @@
             ],
             "page": "page_3"
         },
-        "Chest pain": {
-            "bbox": [
-                [
-                    89.98561096191406,
-                    393.0155334472656,
-                    113.45040893554688,
-                    403.05950927734375
-                ],
-                [
-                    117.50820922851562,
-                    103.15499114990234,
-                    136.0194091796875,
-                    113.19898986816406
-                ]
-            ],
-            "page": "page_5"
-        },
-        "Cranial nerves": {
+        "Cranial nerves II-XII": {
             "bbox": [
                 [
                     36.0,
@@ -246,9 +270,9 @@
                     133.95936584472656
                 ],
                 [
-                    67.00050354003906,
+                    96.55651092529297,
                     123.91536712646484,
-                    93.9861068725586,
+                    115.5105209350586,
                     133.95936584472656
                 ]
             ],
@@ -267,40 +291,6 @@
                     506.8359069824219,
                     150.99835205078125,
                     516.8798828125
-                ]
-            ],
-            "page": "page_4"
-        },
-        "Dyspnea": {
-            "bbox": [
-                [
-                    89.99280548095703,
-                    237.7951202392578,
-                    125.4717025756836,
-                    247.83912658691406
-                ],
-                [
-                    89.97088623046875,
-                    372.2551574707031,
-                    127.44689178466797,
-                    382.29913330078125
-                ]
-            ],
-            "page": "page_5"
-        },
-        "Epigastric pain": {
-            "bbox": [
-                [
-                    89.9874038696289,
-                    299.8951721191406,
-                    129.45240783691406,
-                    309.93914794921875
-                ],
-                [
-                    131.96429443359375,
-                    465.4358825683594,
-                    148.99497985839844,
-                    475.4798583984375
                 ]
             ],
             "page": "page_4"
@@ -339,6 +329,23 @@
             ],
             "page": "page_3"
         },
+        "GERD": {
+            "bbox": [
+                [
+                    215.10675048828125,
+                    537.9154663085938,
+                    241.07534790039062,
+                    547.95947265625
+                ],
+                [
+                    123.05492401123047,
+                    268.8153991699219,
+                    149.0208282470703,
+                    278.859375
+                ]
+            ],
+            "page": "page_5"
+        },
         "Gait": {
             "bbox": [
                 [
@@ -356,7 +363,7 @@
             ],
             "page": "page_4"
         },
-        "Gastro-esophageal reflux disease (GERD)": {
+        "Gastro-esophageal reflux disease": {
             "bbox": [
                 [
                     97.56419372558594,
@@ -365,9 +372,9 @@
                     258.15936279296875
                 ],
                 [
-                    234.62149047851562,
+                    201.0794219970703,
                     248.11537170410156,
-                    266.571533203125,
+                    232.10870361328125,
                     258.15936279296875
                 ]
             ],
@@ -390,23 +397,6 @@
             ],
             "page": "page_4"
         },
-        "Hypertension": {
-            "bbox": [
-                [
-                    90.02519989013672,
-                    320.5951843261719,
-                    143.00189208984375,
-                    330.63916015625
-                ],
-                [
-                    90.02519989013672,
-                    320.5951843261719,
-                    143.00189208984375,
-                    330.63916015625
-                ]
-            ],
-            "page": "page_4"
-        },
         "Jugular venous pressure": {
             "bbox": [
                 [
@@ -424,39 +414,22 @@
             ],
             "page": "page_3"
         },
-        "Lumbosacral back pain": {
+        "Motor and sensory examination": {
             "bbox": [
                 [
-                    90.02339935302734,
-                    486.1358947753906,
-                    141.48809814453125,
-                    496.17987060546875
+                    168.54928588867188,
+                    123.91536712646484,
+                    191.51007080078125,
+                    133.95936584472656
                 ],
                 [
-                    165.50184631347656,
-                    486.1358947753906,
-                    182.52532958984375,
-                    496.17987060546875
+                    36.0,
+                    134.29505920410156,
+                    84.48570251464844,
+                    144.3390655517578
                 ]
             ],
             "page": "page_4"
-        },
-        "NSAID use": {
-            "bbox": [
-                [
-                    187.53627014160156,
-                    630.9764404296875,
-                    215.52267456054688,
-                    641.0204467773438
-                ],
-                [
-                    218.03546142578125,
-                    630.9764404296875,
-                    233.5559539794922,
-                    641.0204467773438
-                ]
-            ],
-            "page": "page_5"
         },
         "Nasal mucosa": {
             "bbox": [
@@ -474,6 +447,23 @@
                 ]
             ],
             "page": "page_3"
+        },
+        "OTC ibuprofen": {
+            "bbox": [
+                [
+                    172.98895263671875,
+                    248.1148223876953,
+                    192.00144958496094,
+                    258.1588134765625
+                ],
+                [
+                    194.5142364501953,
+                    248.1148223876953,
+                    231.99020385742188,
+                    258.1588134765625
+                ]
+            ],
+            "page": "page_2"
         },
         "Oral pharynx": {
             "bbox": [
@@ -509,23 +499,6 @@
             ],
             "page": "page_3"
         },
-        "Penicillin allergy": {
-            "bbox": [
-                [
-                    89.96940612792969,
-                    279.1951599121094,
-                    125.44292449951172,
-                    289.2391357421875
-                ],
-                [
-                    132.06658935546875,
-                    703.4561157226562,
-                    161.11497497558594,
-                    713.5001220703125
-                ]
-            ],
-            "page": "page_5"
-        },
         "Peripheral pulses": {
             "bbox": [
                 [
@@ -559,23 +532,6 @@
                 ]
             ],
             "page": "page_4"
-        },
-        "Systolic murmur": {
-            "bbox": [
-                [
-                    89.99967956542969,
-                    548.1764526367188,
-                    124.50836944580078,
-                    558.220458984375
-                ],
-                [
-                    127.02926635742188,
-                    548.1764526367188,
-                    161.0267791748047,
-                    558.220458984375
-                ]
-            ],
-            "page": "page_5"
         },
         "TAH with BSO": {
             "bbox": [
@@ -675,23 +631,6 @@
                     186.0153350830078,
                     67.43309020996094,
                     196.05934143066406
-                ]
-            ],
-            "page": "page_5"
-        },
-        "aortic valvular murmur": {
-            "bbox": [
-                [
-                    175.12794494628906,
-                    589.63671875,
-                    197.09243774414062,
-                    599.6807250976562
-                ],
-                [
-                    233.13650512695312,
-                    589.63671875,
-                    264.092041015625,
-                    599.6807250976562
                 ]
             ],
             "page": "page_5"
@@ -815,19 +754,36 @@
             ],
             "page": "page_3"
         },
-        "cholesterol-lowering medication": {
+        "cervix": {
             "bbox": [
                 [
-                    143.069091796875,
-                    248.11476135253906,
-                    223.11683654785156,
-                    258.15875244140625
+                    82.52460479736328,
+                    82.51534271240234,
+                    106.03530883789062,
+                    92.55934143066406
                 ],
                 [
-                    225.62692260742188,
-                    248.11476135253906,
-                    269.12030029296875,
-                    258.15875244140625
+                    82.52460479736328,
+                    82.51534271240234,
+                    106.03530883789062,
+                    92.55934143066406
+                ]
+            ],
+            "page": "page_4"
+        },
+        "cholesterol": {
+            "bbox": [
+                [
+                    130.57797241210938,
+                    631.0357666015625,
+                    174.1073455810547,
+                    641.0797729492188
+                ],
+                [
+                    241.13746643066406,
+                    237.79444885253906,
+                    284.639892578125,
+                    247.8384552001953
                 ]
             ],
             "page": "page_6"
@@ -849,23 +805,6 @@
             ],
             "page": "page_5"
         },
-        "conjunctiva": {
-            "bbox": [
-                [
-                    148.45465087890625,
-                    227.4157257080078,
-                    193.3997039794922,
-                    237.45973205566406
-                ],
-                [
-                    148.45465087890625,
-                    227.4157257080078,
-                    193.3997039794922,
-                    237.45973205566406
-                ]
-            ],
-            "page": "page_3"
-        },
         "crackles": {
             "bbox": [
                 [
@@ -883,22 +822,39 @@
             ],
             "page": "page_3"
         },
-        "early ASCVD": {
+        "diuretics": {
             "bbox": [
                 [
-                    114.53850555419922,
-                    289.5154724121094,
-                    134.06851196289062,
-                    299.5594482421875
+                    79.50660705566406,
+                    320.5945129394531,
+                    112.9884033203125,
+                    330.63848876953125
                 ],
                 [
-                    136.4453887939453,
-                    403.3952331542969,
-                    167.48280334472656,
-                    413.439208984375
+                    79.50660705566406,
+                    320.5945129394531,
+                    112.9884033203125,
+                    330.63848876953125
                 ]
             ],
-            "page": "page_4"
+            "page": "page_6"
+        },
+        "dyspnea": {
+            "bbox": [
+                [
+                    164.12994384765625,
+                    299.8951110839844,
+                    198.1319122314453,
+                    309.9390869140625
+                ],
+                [
+                    144.04647827148438,
+                    320.5945129394531,
+                    178.08444213867188,
+                    330.63848876953125
+                ]
+            ],
+            "page": "page_6"
         },
         "edema": {
             "bbox": [
@@ -985,6 +941,23 @@
             ],
             "page": "page_2"
         },
+        "hypertension": {
+            "bbox": [
+                [
+                    135.49105834960938,
+                    600.0154418945312,
+                    186.9962921142578,
+                    610.0594482421875
+                ],
+                [
+                    149.0478057861328,
+                    455.0561218261719,
+                    205.51651000976562,
+                    465.10009765625
+                ]
+            ],
+            "page": "page_5"
+        },
         "hypertensive retinopathy": {
             "bbox": [
                 [
@@ -1002,22 +975,22 @@
             ],
             "page": "page_5"
         },
-        "ibuprofen": {
+        "impending myocardial infarction": {
             "bbox": [
                 [
-                    194.5142364501953,
-                    248.1148223876953,
-                    231.99020385742188,
-                    258.1588134765625
+                    123.06571960449219,
+                    123.9146957397461,
+                    164.58718872070312,
+                    133.9586944580078
                 ],
                 [
-                    194.5142364501953,
-                    248.1148223876953,
-                    231.99020385742188,
-                    258.1588134765625
+                    213.1466522216797,
+                    123.9146957397461,
+                    249.593017578125,
+                    133.9586944580078
                 ]
             ],
-            "page": "page_2"
+            "page": "page_6"
         },
         "inter-costal space": {
             "bbox": [
@@ -1070,22 +1043,22 @@
             ],
             "page": "page_3"
         },
-        "myocardial infarction": {
+        "lung bases": {
             "bbox": [
                 [
-                    167.09727478027344,
-                    123.9146957397461,
-                    210.64466857910156,
-                    133.9586944580078
+                    163.65745544433594,
+                    434.4158630371094,
+                    180.6836395263672,
+                    444.4598388671875
                 ],
                 [
-                    213.1466522216797,
-                    123.9146957397461,
-                    249.593017578125,
-                    133.9586944580078
+                    183.1802215576172,
+                    434.4158630371094,
+                    207.2255096435547,
+                    444.4598388671875
                 ]
             ],
-            "page": "page_6"
+            "page": "page_3"
         },
         "nitrates": {
             "bbox": [
@@ -1117,23 +1090,6 @@
                     289.5148010253906,
                     54.95369338989258,
                     299.55877685546875
-                ]
-            ],
-            "page": "page_6"
-        },
-        "non-pharmacologic measures": {
-            "bbox": [
-                [
-                    481.1010437011719,
-                    144.5546417236328,
-                    564.5780639648438,
-                    154.59864807128906
-                ],
-                [
-                    323.99969482421875,
-                    154.93434143066406,
-                    366.002685546875,
-                    164.9783477783203
                 ]
             ],
             "page": "page_6"
@@ -1291,6 +1247,23 @@
             ],
             "page": "page_1"
         },
+        "radiates to the neck": {
+            "bbox": [
+                [
+                    69.46887969970703,
+                    589.63671875,
+                    101.5160903930664,
+                    599.6807250976562
+                ],
+                [
+                    129.0570068359375,
+                    589.63671875,
+                    148.0406951904297,
+                    599.6807250976562
+                ]
+            ],
+            "page": "page_5"
+        },
         "rash": {
             "bbox": [
                 [
@@ -1325,39 +1298,22 @@
             ],
             "page": "page_5"
         },
-        "sclera": {
+        "second right inter-costal space": {
             "bbox": [
                 [
-                    104.46270751953125,
-                    227.4157257080078,
-                    128.40269470214844,
-                    237.45973205566406
+                    36.00029754638672,
+                    465.4350280761719,
+                    65.02169799804688,
+                    475.47900390625
                 ],
                 [
-                    104.46270751953125,
-                    227.4157257080078,
-                    128.40269470214844,
-                    237.45973205566406
+                    133.9841766357422,
+                    465.4350280761719,
+                    158.00875854492188,
+                    475.47900390625
                 ]
             ],
             "page": "page_3"
-        },
-        "sensory examination": {
-            "bbox": [
-                [
-                    211.58184814453125,
-                    123.91536712646484,
-                    243.09983825683594,
-                    133.95936584472656
-                ],
-                [
-                    36.0,
-                    134.29505920410156,
-                    84.48570251464844,
-                    144.3390655517578
-                ]
-            ],
-            "page": "page_4"
         },
         "splenomegaly": {
             "bbox": [
@@ -1393,6 +1349,23 @@
             ],
             "page": "page_3"
         },
+        "third heart sound": {
+            "bbox": [
+                [
+                    78.0044937133789,
+                    403.3951721191406,
+                    95.46629333496094,
+                    413.43914794921875
+                ],
+                [
+                    121.00111389160156,
+                    403.3951721191406,
+                    145.51889038085938,
+                    413.43914794921875
+                ]
+            ],
+            "page": "page_5"
+        },
         "thyroid gland": {
             "bbox": [
                 [
@@ -1409,6 +1382,23 @@
                 ]
             ],
             "page": "page_3"
+        },
+        "vagina": {
+            "bbox": [
+                [
+                    36.0,
+                    82.51534271240234,
+                    62.48609924316406,
+                    92.55934143066406
+                ],
+                [
+                    36.0,
+                    82.51534271240234,
+                    62.48609924316406,
+                    92.55934143066406
+                ]
+            ],
+            "page": "page_4"
         },
         "valvular heart disease": {
             "bbox": [

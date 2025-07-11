@@ -148,7 +148,7 @@ def llm_process(pdf_file_path, patient_info_file_path):
     The headers should ve quantified if applicable (e.g. take 2 mg Aspirin twice daily). 
     Keep in mind low literacy level, but not at the cost of incorrect medical vocab (to prevent miscommunication). 
     Create 3-20 tasks, depending on what makes sense. Each separate medication and or PT exercise, etc is a separate task. 
-    Put this into json format. Use the header of each task as the key, and then any extra details as the value.
+    Put this into json format. Use the header of each task as the key and do not number the tasks, and then any extra details as the value.
 
     Must be JSON format.
 

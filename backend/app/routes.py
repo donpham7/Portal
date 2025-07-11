@@ -122,7 +122,6 @@ def parse_pdf(folder, filename):
 
 @main.route("/api/get_reports/<int:user_id>")
 def get_reports(user_id):
-    print(user_id)
     """Retrieves reports JSONs by user ID"""
     folder_path = REPORTS_FOLDER + "/" + "user_id" + str(user_id)
 
@@ -131,8 +130,8 @@ def get_reports(user_id):
         file_path = os.path.join(folder_path, filename)
         if os.path.isfile(file_path):
             with open(file_path, "r") as f:
-                json_list.append(json.load(f))
-    print("Got reports")
+                json_list.append({"filename": filename[:-5], "data": json.load(f)})
+    print("Got reports", (json_list))
     return jsonify(json_list), 200
 
 
@@ -182,8 +181,7 @@ def get_tasks(user_id):
         file_path = os.path.join(folder_path, filename)
         if os.path.isfile(file_path):
             with open(file_path, "r") as f:
-                tasks.extend(json.load(f)["tasks"])
-    print("Got tasks")
+                tasks.extend(json.load(f)[1])
     return jsonify(tasks), 200
 
 
