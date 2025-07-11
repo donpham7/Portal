@@ -1,0 +1,373 @@
+[
+    {
+        "filename": "medical_report_summary.json",
+        "key_details": {
+            "CT brain scans": "Special X-ray pictures that create detailed images of your brain.",
+            "Dementia": "A brain condition that causes a decline in memory, thinking, and reasoning severe enough to interfere with daily life.",
+            "MRI brain scans": "Medical scans using strong magnets and radio waves to create detailed images of your brain.",
+            "Orientation to time, place and person": "Knowing the correct date, where you are, and identifying yourself and others.",
+            "behavioural symptoms": "Changes in a person's actions.",
+            "cardiac failure": "When your heart cannot pump enough blood to meet your body's needs.",
+            "cardiomyopathy": "Weakness of the heart muscle.",
+            "chronic renal disease": "Long-term kidney disease, meaning the kidneys don't work as well as they should.",
+            "clinical impression": "The doctor's initial professional opinion based on observations.",
+            "cognitive ability": "Mental skills needed for thinking, learning, memory, and problem-solving.",
+            "cognitive failures": "Specific instances where mental processes like thinking, understanding, or problem-solving do not work correctly.",
+            "euthymic": "Having a normal, balanced, and non-depressed mood.",
+            "hyperlipidemia": "High cholesterol.",
+            "hypertension": "High blood pressure.",
+            "impaired": "Not working as it should, or damaged.",
+            "inability to retain information": "Difficulty remembering new facts or experiences for even a short time.",
+            "incontinent": "Difficulty controlling your bladder or bowels.",
+            "manifesting": "Showing signs of.",
+            "memory deficits": "Problems or weaknesses in remembering things.",
+            "mental capacity": "The ability to understand information, make decisions, and communicate those decisions.",
+            "mental capacity assessment": "A formal evaluation to determine if a person can make their own decisions.",
+            "physical state": "The overall condition of your body.",
+            "prognosis": "The likely course or outcome of a disease or medical condition.",
+            "psychological symptoms": "Changes in a person's thoughts or feelings.",
+            "psychotic symptoms": "Severe mental problems that cause a person to lose touch with reality, such as seeing or hearing things that aren't there.",
+            "secondary to": "Caused by.",
+            "stroke rehabilitation": "Specialized therapy to help improve function after a brain attack.",
+            "strokes": "Brain attacks due to blocked blood flow or bleeding in the brain."
+        },
+        "personal_takeaways": "For Mr. Tan Ah Kow, the report indicates significant long-term health issues. He has conditions like high blood pressure and high cholesterol, which led to multiple brain attacks (strokes) and eventually heart muscle weakness, heart failure, and kidney disease. He has also developed a brain condition called dementia, which is causing severe memory loss and problems with thinking, understanding, and making decisions. This means he needs help with daily activities like personal care and managing his finances, and his thinking abilities are expected to worsen over time.\n\nFor Don Pham, your mild high blood pressure is a condition that, as seen in Mr. Tan's case, requires careful monitoring and management over the long term to prevent more serious health problems like strokes or heart complications later in life. Continuing to manage your health actively, as a healthy athlete, is very important for preventing such progressions."
+    },
+    {
+        "Attend All Follow-Up Medical Appointments": "Make sure to go to all scheduled doctor visits to review your health conditions and adjust your care plan.",
+        "Discuss Any Changes in Health with Caregivers": "Communicate any new or worsening symptoms, confusion, or physical difficulties to your caregivers or family members.",
+        "Discuss Medication Schedule with Doctor": "Review all your current medications with your doctor or pharmacist to ensure they are correct and understood.",
+        "Engage in Regular Physical Activity": "Aim for light exercise daily, such as short walks, as advised by your doctor, to improve circulation and overall health.",
+        "Ensure Home Safety": "Check your home for any fall hazards, such as loose rugs or cluttered pathways, to prevent injuries.",
+        "Maintain a Heart-Healthy Diet": "Eat foods low in salt and unhealthy fats, and focus on fruits, vegetables, and whole grains to support your heart and blood vessels.",
+        "Monitor Blood Pressure Daily": "Check your blood pressure once every day at the same time to track changes.",
+        "Participate in Brain-Stimulating Activities": "Engage in simple activities like looking at family photos, listening to music, or light puzzles to help keep your mind active.",
+        "Stay Hydrated": "Drink enough water throughout the day as advised by your doctor to support kidney function.",
+        "Use Memory Aids": "Use a calendar, notes, or reminders to help you remember important information and daily tasks."
+    },
+    {
+        "Dementia": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    80.16798400878906,
+                    190.60400390625,
+                    93.45198822021484
+                ],
+                [
+                    144.02000427246094,
+                    80.16798400878906,
+                    190.60400390625,
+                    93.45198822021484
+                ]
+            ],
+            "page": "page_5"
+        },
+        "Orientation to time, place and person": {
+            "bbox": [
+                [
+                    108.0199966430664,
+                    385.1180114746094,
+                    162.6079864501953,
+                    398.4020080566406
+                ],
+                [
+                    253.8919677734375,
+                    385.1180114746094,
+                    285.8359680175781,
+                    398.4020080566406
+                ]
+            ],
+            "page": "page_3"
+        },
+        "cardiac failure": {
+            "bbox": [
+                [
+                    326.95001220703125,
+                    557.93798828125,
+                    361.57000732421875,
+                    571.2219848632812
+                ],
+                [
+                    364.4980163574219,
+                    557.93798828125,
+                    395.8420104980469,
+                    571.2219848632812
+                ]
+            ],
+            "page": "page_2"
+        },
+        "chronic renal disease": {
+            "bbox": [
+                [
+                    419.1099853515625,
+                    557.93798828125,
+                    455.1579895019531,
+                    571.2219848632812
+                ],
+                [
+                    485.0619812011719,
+                    557.93798828125,
+                    519.6699829101562,
+                    571.2219848632812
+                ]
+            ],
+            "page": "page_2"
+        },
+        "clinical impression": {
+            "bbox": [
+                [
+                    213.2779998779297,
+                    732.5879516601562,
+                    248.64199829101562,
+                    745.8719482421875
+                ],
+                [
+                    167.86398315429688,
+                    48.46797180175781,
+                    220.54397583007812,
+                    61.75197219848633
+                ]
+            ],
+            "page": "page_3"
+        },
+        "cognitive ability": {
+            "bbox": [
+                [
+                    327.8960266113281,
+                    143.7680206298828,
+                    372.66802978515625,
+                    157.05201721191406
+                ],
+                [
+                    375.66802978515625,
+                    143.7680206298828,
+                    406.4600524902344,
+                    157.05201721191406
+                ]
+            ],
+            "page": "page_3"
+        },
+        "euthymic": {
+            "bbox": [
+                [
+                    422.9259948730469,
+                    321.63800048828125,
+                    467.5480041503906,
+                    334.9219970703125
+                ],
+                [
+                    422.9259948730469,
+                    321.63800048828125,
+                    467.5480041503906,
+                    334.9219970703125
+                ]
+            ],
+            "page": "page_3"
+        },
+        "hyperlipidemia": {
+            "bbox": [
+                [
+                    108.0199966430664,
+                    542.0979614257812,
+                    180.6199951171875,
+                    555.3819580078125
+                ],
+                [
+                    108.0199966430664,
+                    542.0979614257812,
+                    180.6199951171875,
+                    555.3819580078125
+                ]
+            ],
+            "page": "page_2"
+        },
+        "hypertension": {
+            "bbox": [
+                [
+                    421.1780090332031,
+                    526.2579345703125,
+                    483.27801513671875,
+                    539.5419311523438
+                ],
+                [
+                    421.1780090332031,
+                    526.2579345703125,
+                    483.27801513671875,
+                    539.5419311523438
+                ]
+            ],
+            "page": "page_2"
+        },
+        "impaired": {
+            "bbox": [
+                [
+                    281.14398193359375,
+                    100.20796203613281,
+                    323.8399963378906,
+                    113.4919662475586
+                ],
+                [
+                    281.14398193359375,
+                    100.20796203613281,
+                    323.8399963378906,
+                    113.4919662475586
+                ]
+            ],
+            "page": "page_7"
+        },
+        "manifesting": {
+            "bbox": [
+                [
+                    385.9779968261719,
+                    732.5879516601562,
+                    442.72601318359375,
+                    745.8719482421875
+                ],
+                [
+                    302.3059997558594,
+                    48.46797180175781,
+                    359.0420227050781,
+                    61.75197219848633
+                ]
+            ],
+            "page": "page_3"
+        },
+        "memory deficits": {
+            "bbox": [
+                [
+                    108.0199966430664,
+                    306.5180358886719,
+                    148.0880126953125,
+                    319.8020324707031
+                ],
+                [
+                    150.84800720214844,
+                    306.5180358886719,
+                    186.21200561523438,
+                    319.8020324707031
+                ]
+            ],
+            "page": "page_7"
+        },
+        "mental capacity": {
+            "bbox": [
+                [
+                    108.0199966430664,
+                    164.7680206298828,
+                    143.3000030517578,
+                    178.05201721191406
+                ],
+                [
+                    146.3000030517578,
+                    164.7680206298828,
+                    188.88800048828125,
+                    178.05201721191406
+                ]
+            ],
+            "page": "page_8"
+        },
+        "mental capacity assessment": {
+            "bbox": [
+                [
+                    362.65997314453125,
+                    108.24800109863281,
+                    395.2879638671875,
+                    121.5320053100586
+                ],
+                [
+                    441.8719787597656,
+                    108.24800109863281,
+                    495.2359924316406,
+                    121.5320053100586
+                ]
+            ],
+            "page": "page_2"
+        },
+        "physical state": {
+            "bbox": [
+                [
+                    429.4880676269531,
+                    143.7680206298828,
+                    469.52008056640625,
+                    157.05201721191406
+                ],
+                [
+                    472.52008056640625,
+                    143.7680206298828,
+                    494.5160827636719,
+                    157.05201721191406
+                ]
+            ],
+            "page": "page_3"
+        },
+        "psychological symptoms": {
+            "bbox": [
+                [
+                    108.0199966430664,
+                    748.427978515625,
+                    174.55999755859375,
+                    761.7119750976562
+                ],
+                [
+                    108.0199966430664,
+                    64.42799377441406,
+                    157.2799835205078,
+                    77.71199798583984
+                ]
+            ],
+            "page": "page_3"
+        },
+        "secondary to": {
+            "bbox": [
+                [
+                    229.98797607421875,
+                    748.427978515625,
+                    278.6959533691406,
+                    761.7119750976562
+                ],
+                [
+                    211.87997436523438,
+                    64.42799377441406,
+                    221.21597290039062,
+                    77.71199798583984
+                ]
+            ],
+            "page": "page_3"
+        },
+        "stroke rehabilitation": {
+            "bbox": [
+                [
+                    355.62200927734375,
+                    669.0880126953125,
+                    384.91400146484375,
+                    682.3720092773438
+                ],
+                [
+                    387.8659973144531,
+                    669.0880126953125,
+                    451.89801025390625,
+                    682.3720092773438
+                ]
+            ],
+            "page": "page_2"
+        },
+        "strokes": {
+            "bbox": [
+                [
+                    337.8019714355469,
+                    542.0979614257812,
+                    371.8699645996094,
+                    555.3819580078125
+                ],
+                [
+                    337.8019714355469,
+                    542.0979614257812,
+                    371.8699645996094,
+                    555.3819580078125
+                ]
+            ],
+            "page": "page_2"
+        }
+    }
+]

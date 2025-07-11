@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Patient from "./pages/Patient";
 import Hospital from "./pages/Hospital";
 import HospitalReport from "./pages/HospitalReport";
+import PatientReport from "./pages/PatientReport";
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
           <Route
             path="/hospital/report/:user_id/:report_name"
             element={<HospitalReport />}
+          />
+          <Route
+            path="/patient/report/:user_id/:report_name"
+            element={<PatientReport />}
           />
         </Routes>
       </div>
