@@ -1,10 +1,23 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Lin,
+  useNavigate,
+} from "react-router-dom";
 import React, { useEffect, useState } from "react";
 
 export default function HospitalDashboard() {
   const [patients, setPatients] = useState([]);
   const [selectedPatient, setSelectedPatient] = useState(null);
   const [uploadedFile, setFile] = useState(null);
+  const [fileLoading, setFileLoading] = useState(false);
+  const [fileLoaded, setFileLoaded] = useState(false);
+
+  const navigate = useNavigate();
+  const goToReport = (report_name, user_id) => {
+    navigate(`report/${user_id}/${report_name}`);
+  };
 
   const OnPatientClick = (value) => {
     setSelectedPatient(value);
@@ -26,7 +39,7 @@ export default function HospitalDashboard() {
     const formData = new FormData();
     formData.append("file", uploadedFile);
     formData.append("user_id", selectedPatient.user_id);
-
+    setFileLoading(true);
     fetch("/api/upload", {
       method: "POST",
       body: formData,
@@ -36,9 +49,12 @@ export default function HospitalDashboard() {
         return res;
       })
       .then((data) => {
+        setFileLoading(false);
+        setFileLoaded(true);
         console.log("Success:", data);
       })
       .catch((err) => {
+        setFileLoading(false);
         console.error("Upload error:", err);
       });
   };
@@ -142,12 +158,32 @@ export default function HospitalDashboard() {
                     </span>
                   </label>
                 </div>
-                <button
-                  class="button is-fullwidth is-primary"
-                  onClick={handleUpload}
-                >
-                  Upload new file
-                </button>
+                {fileLoaded === false ? (
+                  <button
+                    class="button is-fullwidth is-primary"
+                    onClick={handleUpload}
+                  >
+                    Upload new file
+                  </button>
+                ) : (
+                  <button
+                    class="button is-fullwidth is-danger"
+                    onClick={() => {
+                      goToReport(uploadedFile?.name, selectedPatient?.user_id);
+                    }}
+                  >
+                    Validate File
+                  </button>
+                )}
+                {fileLoading && (
+                  <progress
+                    class="progress is-small is-primary"
+                    max="100"
+                    style={{ marginTop: 15 }}
+                  >
+                    15%
+                  </progress>
+                )}
               </div>
             )}
           </div>
