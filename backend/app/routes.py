@@ -50,6 +50,18 @@ def upload():
             app.config["UPLOAD_FOLDER"], "user_id" + userId, file.filename
         )
         file.save(filepath)
+        llm_result = llm(
+            os.path.join(app.config["UPLOAD_FOLDER"], "user_id" + userId),
+            file.filename,
+            USERS_FOLDER,
+            "user_id" + userId + ".json",
+        )
+        os.makedirs(os.path.join(REPORTS_FOLDER, "user_id" + userId), exist_ok=True)
+        with open(
+            os.path.join(REPORTS_FOLDER, "user_id" + userId, file.filename + ".json"),
+            "w",
+        ) as f:
+            json.dump(llm_result, f, indent=4)
         return f"File uploaded successfully: {file.filename}"
 
 
@@ -75,15 +87,6 @@ def parse_pdf(folder, filename):
 
     file_path = get_file_path(folder, filename)
     return parse_pdf_contents(file_path)
-
-
-@main.route("/api/parse_pdf/<path:folder>/<path:filename>")
-def llm(folder, filename):
-    """Taking parsed pdf data and patient info, running in LLM, storing in a json:
-    filename, patient id, doctor id, key details, personal takeaways, tasks"""
-
-    file_path = get_file_path(folder, filename)
-    return llm_process(file_path)
 
 
 @main.route("/api/get_reports/<int:user_id>")

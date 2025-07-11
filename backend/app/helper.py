@@ -1,16 +1,18 @@
 from flask import jsonify, json, abort
 from google import genai
 
-import fitz # PyMuPDF
+import fitz  # PyMuPDF
 import os
 
 
 def get_file_path(folder, filename):
     """Retrieves file from data/uploads"""
-    full_folder_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data", folder))
+    full_folder_path = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), "..", "..", "data", folder)
+    )
 
     file_path = os.path.join(full_folder_path, filename)
-    
+
     if not os.path.isfile(file_path):
         print("File not found:", file_path)
         abort(404)
@@ -29,7 +31,6 @@ def get_patient_info(file_path):
         JSON: content of user.json's patient_info.
     """
 
-
     try:
         with open(file_path, "r") as f:
             data = json.load(f)
@@ -38,7 +39,7 @@ def get_patient_info(file_path):
         return jsonify({"error": f"{file_path} not found"}), 404
     except json.JSONDecodeError:
         return jsonify({"error": "Malformed JSON file"}), 500
-    
+
 
 def parse_pdf_contents(file_path):
     """
@@ -50,7 +51,6 @@ def parse_pdf_contents(file_path):
     Returns:
         JSON: content of pdf and coordinates for each word.
     """
-
 
     try:
         doc = fitz.open(file_path)
@@ -64,22 +64,17 @@ def parse_pdf_contents(file_path):
             word_data = []
             for w in words:
                 x0, y0, x1, y1, text, *_ = w
-                word_data.append({
-                    "text": text,
-                    "bbox": [x0, y0, x1, y1]
-                })
+                word_data.append({"text": text, "bbox": [x0, y0, x1, y1]})
                 all_words.append(text)
 
-
             result[f"page_{page_num + 1}"] = word_data
-        
+
         result["all_words"] = all_words
         return result
 
-
     except FileNotFoundError:
         return jsonify({"error": f"{file_path} not found"}), 404
-    
+
 
 def llm_process(pdf_file_path, patient_info_file_path):
     """
@@ -93,11 +88,11 @@ def llm_process(pdf_file_path, patient_info_file_path):
     """
 
     parsed_pdf_contents = parse_pdf_contents(pdf_file_path)
-    parsed_pdf_str = ' '.join(parsed_pdf_contents["all_words"])
+    parsed_pdf_str = " ".join(parsed_pdf_contents["all_words"])
 
     patient_info = get_patient_info(patient_info_file_path)
     with open(patient_info_file_path, "r") as f:
-            patient_info = json.load(f)["patient_info"]
+        patient_info = json.load(f)["patient_info"]
     patient_info_str = json.dumps(patient_info, indent=2)
 
     prompt = f"""
@@ -178,7 +173,7 @@ def llm_process(pdf_file_path, patient_info_file_path):
     for key_detail in result[0]["key_details"].keys():
         first_bbox = None
         last_bbox = None
-        list_key_detail = key_detail.split(' ')
+        list_key_detail = key_detail.split(" ")
         for page_key in parsed_pdf_contents.keys():
             if page_key[0:5] != "page_":
                 break
@@ -188,15 +183,23 @@ def llm_process(pdf_file_path, patient_info_file_path):
                         first_bbox = parsed_pdf_contents[page_key][doc_idx]["bbox"]
                     match = True
                     for key_word_idx in range(len(list_key_detail)):
-                        
-                        if parsed_pdf_contents[page_key][doc_idx + key_word_idx]["text"] != list_key_detail[key_word_idx]:
+
+                        if (
+                            parsed_pdf_contents[page_key][doc_idx + key_word_idx][
+                                "text"
+                            ]
+                            != list_key_detail[key_word_idx]
+                        ):
                             first_bbox = None
                             match = False
                             break
-                    if (match == True):
-                        last_bbox = parsed_pdf_contents[page_key][doc_idx + key_word_idx]["bbox"]
-            word_coordinates_dict[key_detail] = [first_bbox, last_bbox]
+                    if match == True:
+                        last_bbox = parsed_pdf_contents[page_key][
+                            doc_idx + key_word_idx
+                        ]["bbox"]
+                        word_coordinates_dict[key_detail] = {
+                            "page": page_key,
+                            "bbox": [first_bbox, last_bbox],
+                        }
     result.append(word_coordinates_dict)
     return result
-
-
