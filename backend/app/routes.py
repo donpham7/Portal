@@ -36,20 +36,24 @@ def upload():
 
     Returns:
     """
-
-
-    if 'file' not in request.files:
+    userId = str(request.form.get("user_id"))
+    print(userId)
+    if "file" not in request.files:
         return "No file part", 400
-    file = request.files['file']
-    if file.filename == '':
+    file = request.files["file"]
+    if file.filename == "":
         return "No file part", 400
     if file:
-        filepath = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
+        print(type(userId))
+        os.makedirs(app.config["UPLOAD_FOLDER"] + "/user_id" + userId, exist_ok=True)
+        filepath = os.path.join(
+            app.config["UPLOAD_FOLDER"], "user_id" + userId, file.filename
+        )
         file.save(filepath)
         return f"File uploaded successfully: {file.filename}"
-    
 
-@main.route('/api/file/<path:folder>/<path:filename>')
+
+@main.route("/api/file/<path:folder>/<path:filename>")
 def file(folder, filename):
     """Retrieves file from data/uploads"""
 
@@ -121,8 +125,6 @@ def get_patients():
                     patients.append(userData)
     print("Got Patients")
     return jsonify(patients), 200
-    
-
 
 
 app.register_blueprint(main)

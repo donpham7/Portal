@@ -4,11 +4,43 @@ import React, { useEffect, useState } from "react";
 export default function HospitalDashboard() {
   const [patients, setPatients] = useState([]);
   const [selectedPatient, setSelectedPatient] = useState(null);
+  const [uploadedFile, setFile] = useState(null);
 
   const OnPatientClick = (value) => {
     setSelectedPatient(value);
     console.log("Clicked User", value);
     console.log(selectedPatient);
+  };
+
+  const handleFileChange = (e) => {
+    setFile(e.target.files[0]);
+    console.log("Selected file:", e.target.files[0]);
+  };
+
+  const handleUpload = () => {
+    if (!uploadedFile) {
+      alert("No file selected!");
+      return;
+    }
+
+    const formData = new FormData();
+    formData.append("file", uploadedFile);
+    formData.append("user_id", selectedPatient.user_id);
+
+    fetch("/api/upload", {
+      method: "POST",
+      body: formData,
+    })
+      .then((res) => {
+        if (!res.ok) throw new Error("Upload failed");
+        return res;
+      })
+      .then((data) => {
+        console.log("Success:", data);
+      })
+      .catch((err) => {
+        console.error("Upload error:", err);
+      });
   };
 
   useEffect(() => {
@@ -91,7 +123,29 @@ export default function HospitalDashboard() {
                     </div>
                   )}
                 </ul>
-                <button class="button is-fullwidth is-primary">
+                <div class="file has-name is-fullwidth">
+                  <label class="file-label">
+                    <input
+                      class="file-input"
+                      type="file"
+                      name="resume"
+                      onChange={handleFileChange}
+                    />
+                    <span class="file-cta">
+                      <span class="file-icon">
+                        <i class="fas fa-upload"></i>
+                      </span>
+                      <span class="file-label"> Choose a file… </span>
+                    </span>
+                    <span class="file-name">
+                      {uploadedFile?.name || "No file selected"}
+                    </span>
+                  </label>
+                </div>
+                <button
+                  class="button is-fullwidth is-primary"
+                  onClick={handleUpload}
+                >
                   Upload new file
                 </button>
               </div>
