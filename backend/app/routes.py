@@ -10,6 +10,7 @@ from flask import (
 from flask import abort
 from .helper import get_file_path, get_patient_info, parse_pdf_contents, llm_process
 import os
+import fitz
 
 app = Flask(__name__)
 main = Blueprint("main", __name__)
@@ -23,8 +24,23 @@ USERS_FOLDER = os.path.abspath(
 REPORTS_FOLDER = os.path.abspath(
     os.path.join(os.path.dirname(__file__), "..", "..", "data", "reports")
 )
+REPORT_IMAGES_FOLDER = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "..", "data", "report_images")
+)
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+
+
+@main.route("/api/routes")
+def list_routes():
+    import urllib
+
+    output = []
+    for rule in app.url_map.iter_rules():
+        methods = ",".join(rule.methods)
+        line = urllib.parse.unquote(f"{rule.endpoint:30s} {methods:20s} {rule}")
+        output.append(line)
+    return "<br>".join(sorted(output))
 
 
 @main.route("/api/upload", methods=["POST"])
@@ -62,6 +78,21 @@ def upload():
             "w",
         ) as f:
             json.dump(llm_result, f, indent=4)
+
+        doc = fitz.open(filepath)
+
+        # Iterate through pages
+        out_folder = os.path.join(REPORT_IMAGES_FOLDER, "user_id" + userId)
+        os.makedirs(out_folder, exist_ok=True)
+        out_folder = os.path.join(out_folder, file.filename)
+        os.makedirs(out_folder, exist_ok=True)
+        for page_num in range(len(doc)):
+            page = doc.load_page(page_num)  # 0-based indexing
+            pix = page.get_pixmap(dpi=150)  # Increase DPI for better quality
+            # Save image
+            output_path = os.path.join(out_folder, f"page_{page_num + 1}.png")
+            pix.save(output_path)
+            print(f"Saved {output_path}")
         return f"File uploaded successfully: {file.filename}"
 
 
@@ -118,6 +149,26 @@ def get_report(user_id, report_name):
         report = json.load(f)
     print("Got report")
     return jsonify(report), 200
+
+
+@main.route("/api/get_report_images/<int:user_id>/<string:report_name>")
+def get_report_images(user_id, report_name):
+    print(user_id)
+    print(report_name)
+    print("IMAGES")
+    folder = os.path.join(REPORT_IMAGES_FOLDER, "user_id" + str(user_id), report_name)
+    images = [
+        f for f in os.listdir(folder) if f.lower().endswith((".png", ".jpg", ".jpeg"))
+    ]
+    return jsonify(images)
+
+
+@main.route("/api/serve_image/<int:user_id>/<string:report_name>/<string:file_name>")
+def serve_image(user_id, report_name, file_name):
+    print("SERVING")
+    folder = os.path.join(REPORT_IMAGES_FOLDER, "user_id" + str(user_id), report_name)
+    print(folder, file_name)
+    return send_from_directory(folder, file_name)
 
 
 @main.route("/api/get_tasks/<int:user_id>")
