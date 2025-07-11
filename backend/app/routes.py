@@ -8,7 +8,7 @@ from flask import (
     json,
 )
 from flask import abort
-from .helper import get_file_path, get_patient_info, parse_pdf_contents, llm_process
+from .helper import get_file_path, get_patient_info, parse_pdf_contents, llm_process, llm_process
 import os
 
 app = Flask(__name__)
@@ -36,20 +36,24 @@ def upload():
 
     Returns:
     """
-
-
-    if 'file' not in request.files:
+    userId = str(request.form.get("user_id"))
+    print(userId)
+    if "file" not in request.files:
         return "No file part", 400
-    file = request.files['file']
-    if file.filename == '':
+    file = request.files["file"]
+    if file.filename == "":
         return "No file part", 400
     if file:
-        filepath = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
+        print(type(userId))
+        os.makedirs(app.config["UPLOAD_FOLDER"] + "/user_id" + userId, exist_ok=True)
+        filepath = os.path.join(
+            app.config["UPLOAD_FOLDER"], "user_id" + userId, file.filename
+        )
         file.save(filepath)
         return f"File uploaded successfully: {file.filename}"
-    
 
-@main.route('/api/file/<path:folder>/<path:filename>')
+
+@main.route("/api/file/<path:folder>/<path:filename>")
 def file(folder, filename):
     """Retrieves file from data/uploads"""
 
@@ -71,6 +75,15 @@ def parse_pdf(folder, filename):
 
     file_path = get_file_path(folder, filename)
     return parse_pdf_contents(file_path)
+
+
+@main.route("/api/parse_pdf/<path:folder>/<path:filename>")
+def llm(folder, filename):
+    """Taking parsed pdf data and patient info, running in LLM, storing in a json:
+    filename, patient id, doctor id, key details, personal takeaways, tasks"""
+
+    file_path = get_file_path(folder, filename)
+    return llm_process(file_path)
 
 
 @main.route("/api/get_reports/<int:user_id>")
@@ -121,20 +134,21 @@ def get_patients():
                     patients.append(userData)
     print("Got Patients")
     return jsonify(patients), 200
-    
-@main.route("/api/llm/<path:pdf_folder>/<path:pdf_filename>/<path:patient_folder>/<path:patient_filename>")
+
+
+@main.route(
+    "/api/llm/<path:pdf_folder>/<path:pdf_filename>/<path:patient_folder>/<path:patient_filename>"
+)
 def llm(pdf_folder, pdf_filename, patient_folder, patient_filename):
     """Taking parsed pdf data and patient info, running in LLM, storing in a json:
-      filename, patient id, doctor id, key details, personal takeaways, tasks
-      http://localhost:5000/api/llm/uploads/UMNwriteup.pdf/users/pamela.json
-      """
+    filename, patient id, doctor id, key details, personal takeaways, tasks
+    http://localhost:5000/api/llm/uploads/UMNwriteup.pdf/users/pamela.json
+    """
 
     pdf_file_path = get_file_path(pdf_folder, pdf_filename)
     patient_info_file_path = get_file_path(patient_folder, patient_filename)
     result = llm_process(pdf_file_path, patient_info_file_path)
     return result
-
-
 
 
 app.register_blueprint(main)
