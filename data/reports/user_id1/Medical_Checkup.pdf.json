@@ -1,0 +1,38 @@
+[
+    {
+        "filename": "GENERAL HEALTH CHECK-UP REPORT",
+        "key_details": {
+            "25-hydroxyvitamin D": "The metabolically active form of vitamin D, serving as the primary indicator of vitamin D status within the body.",
+            "LDL Cholesterol": "A specific lipoprotein that transports cholesterol, and elevated levels are associated with increased cardiovascular risk.",
+            "lipid levels": "Concentrations of various fat molecules circulating in the bloodstream, providing insights into metabolic health."
+        },
+        "personal_takeaways": "As a healthy athlete with mild asthma and hypertension, your recent assessment indicates excellent overall physiological function, with blood pressure and pulmonary systems exhibiting normal parameters. However, the evaluation did reveal a slight elevation in lipoprotein cholesterol and a marginal reduction in 25-hydroxyvitamin D, requiring focus on nutritional and lifestyle modifications to maintain optimal cardiovascular and skeletal health, ensuring continued peak performance."
+    },
+    {
+        "Add Vitamin D-Rich Foods": "Include foods fortified with Vitamin D, like certain dairy products, or natural sources such as salmon, in your regular meals. This supports boosting your Vitamin D levels.",
+        "Continue Sun Protection": "Maintain your current practices for protecting your skin from the sun. This ensures ongoing skin health.",
+        "Evaluate Low-Dose Vitamin D Supplementation": "If your exposure to sunlight is limited, especially during colder months, consider discussing with your doctor whether a low-dose Vitamin D supplement is appropriate for you. This can help achieve optimal Vitamin D status.",
+        "Increase Outdoor Time": "Spend more time outdoors when possible. This helps your body naturally produce more Vitamin D, as your current level is slightly lower than ideal.",
+        "Limit Fast Food Intake": "Work on minimizing how often you eat fast food. This habit change can positively influence your overall blood fat levels.",
+        "Prioritize Healthy Fats & Fiber": "Focus on consuming more healthy fat sources, such as olive oil and nuts, and increase your intake of fiber-rich foods. This dietary adjustment aims to improve your blood fat levels, specifically your LDL cholesterol, which is slightly above the recommended threshold."
+    },
+    {
+        "25-hydroxyvitamin D": {
+            "bbox": [
+                [
+                    97.38001251220703,
+                    594.2319946289062,
+                    192.23597717285156,
+                    608.8839721679688
+                ],
+                [
+                    194.7799835205078,
+                    594.2319946289062,
+                    203.01197814941406,
+                    608.8839721679688
+                ]
+            ],
+            "page": "page_1"
+        }
+    }
+]

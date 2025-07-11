@@ -1,0 +1,150 @@
+[
+    {
+        "filename": "General Health Check-up Report",
+        "key_details": {
+            "25-hydroxyvitamin D level": "A biochemical marker indicating the body's vitamin D status.",
+            "HDL": "High-density lipoprotein, a substance involved in the transport of lipids from peripheral tissues.",
+            "LDL cholesterol": "Low-density lipoprotein cholesterol, a substance that can accumulate within vascular structures.",
+            "adventitious sounds": "Abnormal auscultatory findings within the pulmonary parenchyma.",
+            "gait": "The biomechanical pattern of ambulation.",
+            "lipid levels": "The quantitative assessment of various fatty substances within the circulation.",
+            "masses": "Palpable or visible localized aggregations of tissue.",
+            "murmurs": "Anomalous auditory phenomena originating from cardiac valvular or circulatory dynamics.",
+            "organomegaly": "Abnormal increase in the dimensions of an internal viscus."
+        },
+        "personal_takeaways": "Your recent general health check-up indicates a healthy overall physiological state, with minor observations concerning your lipid profiles and vitamin D concentrations. This report does not contain details related to your stress fracture or bronchitis conditions."
+    },
+    {
+        "Consider Vitamin D Supplementation": "Discuss with your healthcare provider if taking a low-dose vitamin D supplement is appropriate, especially during periods of limited sun exposure.",
+        "Consume Vitamin D-Rich Foods": "Add foods like fortified dairy products or salmon to your diet to support your vitamin D levels.",
+        "Continue Sun Protection": "Keep protecting your skin from the sun's rays to prevent any lesions or skin concerns.",
+        "Incorporate Healthy Fats and Fiber": "Choose sources like olive oil, nuts, and foods rich in fiber to help improve your lipid levels.",
+        "Increase Outdoor Exposure": "Spend more time outdoors when possible to naturally boost your vitamin D levels.",
+        "Maintain Nutritional and Physical Activity Awareness": "Focus on your dietary intake and physical movement as metabolism shifts with age, to support overall health.",
+        "Monitor Sleep and Mood Patterns": "Pay attention to how well you are sleeping and how your mood changes over time, as these can be early health indicators.",
+        "Observe Daily Body Responses": "Regularly notice changes in your energy levels, digestion, and mood, as these can signal internal health shifts.",
+        "Reduce Fast Food Consumption": "Limit how often you eat fast food to help manage your cholesterol levels.",
+        "Schedule Next Annual Check-up": "Plan to have your next annual health check-up to review your health trends and monitor any changes."
+    },
+    {
+        "25-hydroxyvitamin D level": {
+            "bbox": [
+                [
+                    97.38001251220703,
+                    594.2319946289062,
+                    192.23597717285156,
+                    608.8839721679688
+                ],
+                [
+                    205.44798278808594,
+                    594.2319946289062,
+                    229.6279754638672,
+                    608.8839721679688
+                ]
+            ],
+            "page": "page_1"
+        },
+        "HDL": {
+            "bbox": [
+                [
+                    372.3240051269531,
+                    400.5019836425781,
+                    395.0760192871094,
+                    415.15399169921875
+                ],
+                [
+                    372.3240051269531,
+                    400.5019836425781,
+                    395.0760192871094,
+                    415.15399169921875
+                ]
+            ],
+            "page": "page_1"
+        },
+        "LDL cholesterol": {
+            "bbox": [
+                [
+                    292.5480041503906,
+                    383.5820007324219,
+                    312.8160095214844,
+                    398.2340087890625
+                ],
+                [
+                    315.21600341796875,
+                    383.5820007324219,
+                    373.55999755859375,
+                    398.2340087890625
+                ]
+            ],
+            "page": "page_1"
+        },
+        "gait": {
+            "bbox": [
+                [
+                    356.24005126953125,
+                    213.87200927734375,
+                    375.1160888671875,
+                    228.52401733398438
+                ],
+                [
+                    356.24005126953125,
+                    213.87200927734375,
+                    375.1160888671875,
+                    228.52401733398438
+                ]
+            ],
+            "page": "page_2"
+        },
+        "masses": {
+            "bbox": [
+                [
+                    360.4100341796875,
+                    163.95196533203125,
+                    400.5140380859375,
+                    178.60397338867188
+                ],
+                [
+                    360.4100341796875,
+                    163.95196533203125,
+                    400.5140380859375,
+                    178.60397338867188
+                ]
+            ],
+            "page": "page_2"
+        },
+        "murmurs": {
+            "bbox": [
+                [
+                    459.37408447265625,
+                    121.95197296142578,
+                    506.9180603027344,
+                    136.60397338867188
+                ],
+                [
+                    459.37408447265625,
+                    121.95197296142578,
+                    506.9180603027344,
+                    136.60397338867188
+                ]
+            ],
+            "page": "page_2"
+        },
+        "organomegaly": {
+            "bbox": [
+                [
+                    271.9580078125,
+                    163.95196533203125,
+                    344.9300231933594,
+                    178.60397338867188
+                ],
+                [
+                    271.9580078125,
+                    163.95196533203125,
+                    344.9300231933594,
+                    178.60397338867188
+                ]
+            ],
+            "page": "page_2"
+        }
+    }
+]

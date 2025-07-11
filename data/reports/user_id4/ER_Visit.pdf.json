@@ -1,0 +1,64 @@
+[
+    {
+        "filename": "EmergencyDepartmentDischargeSummary.pdf",
+        "key_details": {
+            "Acute distress": "Severe, immediate discomfort",
+            "Ambulate independently": "Walk without needing help",
+            "Arrhythmia": "An irregular heart rhythm",
+            "Basic Metabolic Panel": "A blood test checking your body's chemistry and fluid balance",
+            "CBC": "A test that counts and examines your blood cells",
+            "Cardiology": "The medical field focused on heart conditions",
+            "Cardiovascular and neurological assessments": "Checks of your heart, blood vessels, brain, and nerves",
+            "Clinically significant": "Medically important",
+            "Echocardiogram": "An ultrasound test of the heart",
+            "Emergent intervention": "Immediate, urgent medical treatment",
+            "Focal deficits": "Specific areas where nerve or brain function is not working correctly",
+            "Heart palpitations": "Feeling like your heart is racing or skipping a beat",
+            "Hemodynamically stable": "Your blood circulation and pressure remained steady",
+            "Medical evaluation is warranted": "A medical assessment is advised",
+            "Neurological Screening": "A basic check of your brain and nerve function",
+            "Neurology": "The medical field focused on brain and nerve conditions",
+            "Normal sinus rhythm": "A regular, natural heart beat",
+            "Orthostatic Blood Pressure Measurements": "Blood pressure checks taken when you change positions (like sitting to standing)",
+            "Outpatient testing": "Medical tests done without needing to stay overnight in the hospital",
+            "Postural changes": "Changes in your body's position",
+            "Primary care provider": "Your main doctor for general health",
+            "Recurrence": "The return of symptoms",
+            "Structural heart abnormality": "A physical problem with the heart's structure",
+            "Syncope": "A fainting episode",
+            "Tilt-table test": "A test where you lie on a table that tilts to check your heart rate and blood pressure responses",
+            "Transient imbalance": "A temporary upset in your body's normal balance",
+            "Underlying condition": "A hidden medical problem",
+            "Vasovagal syncope": "A common and usually harmless type of fainting often triggered by things like prolonged standing, heat, or emotional stress",
+            "Vital signs were stable": "Your basic body measurements like heart rate and blood pressure were normal"
+        },
+        "personal_takeaways": "Based on the provided emergency department discharge summary, the information primarily addresses a syncope (fainting) episode. This document does not contain details or recommendations pertaining to the patient's existing conditions of stress fracture or bronchitis, as listed in their patient information."
+    },
+    {
+        "Maintain Consistent Nutrition": "Do not skip meals and try to eat regular, balanced meals. Consistent nutrition helps maintain stable blood sugar levels, which can prevent fainting triggered by low blood sugar.",
+        "Move Slowly When Changing Positions": "Avoid standing up too quickly from a sitting or lying down position. Sudden movements can cause a temporary drop in blood pressure, leading to lightheadedness or fainting.",
+        "Prioritize Adequate Rest": "Ensure you are getting enough sleep and rest when your body needs it. Being well-rested reduces the likelihood of fainting episodes.",
+        "Recognize Urgent Symptoms for ER Visit": "Go to the emergency room right away if you experience any of the following: chest pain or difficulty breathing; feeling your heart racing or skipping beats (palpitations); another fainting episode, especially if it happens while you are sitting or lying down; confusion or difficulty speaking that lasts a long time after an episode; or any new problems with your brain or nerves (neurological symptoms). These symptoms could indicate a more serious underlying issue that requires immediate medical attention.",
+        "Schedule Follow-Up with Your Primary Doctor in 7 Days": "Make an appointment to see your main doctor within the next week. Your doctor will monitor your condition and discuss if further tests are needed based on your overall health.",
+        "Stay Hydrated Daily": "Drink plenty of fluids throughout the day to ensure you are well-hydrated. This helps prevent future fainting episodes."
+    },
+    {
+        "Syncope": {
+            "bbox": [
+                [
+                    163.29603576660156,
+                    122.91199493408203,
+                    210.39602661132812,
+                    137.56399536132812
+                ],
+                [
+                    163.29603576660156,
+                    122.91199493408203,
+                    210.39602661132812,
+                    137.56399536132812
+                ]
+            ],
+            "page": "page_1"
+        }
+    }
+]

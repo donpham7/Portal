@@ -1,0 +1,230 @@
+[
+    {
+        "filename": "GENERAL HEALTH CHECK-UP REPORT",
+        "key_details": {
+            "25-hydroxyvitamin D": "a specific form of Vitamin D measured in your blood",
+            "Adventitious": "unusual, often referring to sounds in the lungs",
+            "BMI": "Body Mass Index, a calculation based on weight and height",
+            "Cardiac": "relating to the heart",
+            "Fortified": "having added nutrients",
+            "HDL": "high-density lipoprotein, often called 'good' cholesterol",
+            "LDL Cholesterol": "low-density lipoprotein, often called 'bad' cholesterol",
+            "Lipids": "fats in your blood",
+            "Musculoskeletal": "relating to muscles, bones, and joints",
+            "Neurological": "relating to the brain, spinal cord, and nerves",
+            "Pulmonary": "relating to the lungs",
+            "Reflexes": "automatic body reactions",
+            "Screenings": "medical tests to find health issues early",
+            "affect": "expression of emotions",
+            "clinical urgency": "an immediate medical need",
+            "gait": "your way of walking",
+            "lesions": "areas of abnormal or damaged tissue",
+            "masses": "unusual lumps or growths",
+            "murmurs": "unusual heart sounds",
+            "non-tender": "not painful when touched",
+            "optimal range": "the best or ideal level",
+            "organomegaly": "enlargement of an organ"
+        },
+        "personal_takeaways": "You are generally healthy, but we've noted a couple of minor areas for attention. Your 'bad' cholesterol (LDL) is a little high, which can be improved by making some gentle adjustments to your diet, like eating more healthy fats and fiber, and less fast food. Also, your Vitamin D level is slightly low; increasing your time outdoors and eating Vitamin D-rich foods, or considering a supplement, could help. Continue your active lifestyle and balanced eating, and keep an eye on how your body feels, including your energy, digestion, and mood. We'll check these trends at your next annual visit."
+    },
+    {
+        "Consider Vitamin D Supplement": "Check to see if you want to take a low-dose Vitamin D supplement, especially in colder months, to help raise your Vitamin D levels.",
+        "Continue Sun Protection": "Check to make sure you keep using sunscreen and other methods to protect your skin from the sun.",
+        "Eat Fiber-Rich Foods": "Check to make sure you are adding more foods high in fiber, like fruits and vegetables, to help adjust your cholesterol.",
+        "Eat Healthy Fats": "Check to make sure you are eating more healthy fat sources, like olive oil and nuts, to help improve your blood fat levels.",
+        "Eat Vitamin D Foods": "Check to make sure you include foods like fortified dairy products and salmon in your diet to help increase your Vitamin D.",
+        "Limit Fast Food": "Check to make sure you are reducing how often you eat fast food to positively affect your blood fat levels.",
+        "Observe Body Responses": "Check to make sure you are tuning in to how your body responds day to day, especially with energy and digestion, as these can be early signs of internal shifts.",
+        "Spend Time Outdoors Daily": "Check to make sure you spend more time outdoors when possible to naturally boost your Vitamin D levels.",
+        "Watch Sleep and Mood Patterns": "Check to make sure you pay attention to how well you are sleeping and notice any changes in your mood over time, as these can be early signs of overall changes."
+    },
+    {
+        "25-hydroxyvitamin D": {
+            "bbox": [
+                [
+                    97.38001251220703,
+                    594.2319946289062,
+                    192.23597717285156,
+                    608.8839721679688
+                ],
+                [
+                    194.7799835205078,
+                    594.2319946289062,
+                    203.01197814941406,
+                    608.8839721679688
+                ]
+            ],
+            "page": "page_1"
+        },
+        "BMI": {
+            "bbox": [
+                [
+                    155.916015625,
+                    265.74200439453125,
+                    175.6800079345703,
+                    280.3940124511719
+                ],
+                [
+                    155.916015625,
+                    265.74200439453125,
+                    175.6800079345703,
+                    280.3940124511719
+                ]
+            ],
+            "page": "page_1"
+        },
+        "Cardiac": {
+            "bbox": [
+                [
+                    108.0199966430664,
+                    121.95197296142578,
+                    150.86000061035156,
+                    136.60397338867188
+                ],
+                [
+                    108.0199966430664,
+                    121.95197296142578,
+                    150.86000061035156,
+                    136.60397338867188
+                ]
+            ],
+            "page": "page_2"
+        },
+        "HDL": {
+            "bbox": [
+                [
+                    372.3240051269531,
+                    400.5019836425781,
+                    395.0760192871094,
+                    415.15399169921875
+                ],
+                [
+                    372.3240051269531,
+                    400.5019836425781,
+                    395.0760192871094,
+                    415.15399169921875
+                ]
+            ],
+            "page": "page_1"
+        },
+        "Reflexes": {
+            "bbox": [
+                [
+                    183.97999572753906,
+                    213.87200927734375,
+                    227.7200164794922,
+                    228.52401733398438
+                ],
+                [
+                    183.97999572753906,
+                    213.87200927734375,
+                    227.7200164794922,
+                    228.52401733398438
+                ]
+            ],
+            "page": "page_2"
+        },
+        "affect": {
+            "bbox": [
+                [
+                    344.3880310058594,
+                    240.781982421875,
+                    374.49603271484375,
+                    255.43399047851562
+                ],
+                [
+                    344.3880310058594,
+                    240.781982421875,
+                    374.49603271484375,
+                    255.43399047851562
+                ]
+            ],
+            "page": "page_1"
+        },
+        "gait": {
+            "bbox": [
+                [
+                    356.24005126953125,
+                    213.87200927734375,
+                    375.1160888671875,
+                    228.52401733398438
+                ],
+                [
+                    356.24005126953125,
+                    213.87200927734375,
+                    375.1160888671875,
+                    228.52401733398438
+                ]
+            ],
+            "page": "page_2"
+        },
+        "lesions": {
+            "bbox": [
+                [
+                    155.28799438476562,
+                    188.9119873046875,
+                    192.45199584960938,
+                    203.56399536132812
+                ],
+                [
+                    155.28799438476562,
+                    188.9119873046875,
+                    192.45199584960938,
+                    203.56399536132812
+                ]
+            ],
+            "page": "page_2"
+        },
+        "masses": {
+            "bbox": [
+                [
+                    360.4100341796875,
+                    163.95196533203125,
+                    400.5140380859375,
+                    178.60397338867188
+                ],
+                [
+                    360.4100341796875,
+                    163.95196533203125,
+                    400.5140380859375,
+                    178.60397338867188
+                ]
+            ],
+            "page": "page_2"
+        },
+        "murmurs": {
+            "bbox": [
+                [
+                    459.37408447265625,
+                    121.95197296142578,
+                    506.9180603027344,
+                    136.60397338867188
+                ],
+                [
+                    459.37408447265625,
+                    121.95197296142578,
+                    506.9180603027344,
+                    136.60397338867188
+                ]
+            ],
+            "page": "page_2"
+        },
+        "organomegaly": {
+            "bbox": [
+                [
+                    271.9580078125,
+                    163.95196533203125,
+                    344.9300231933594,
+                    178.60397338867188
+                ],
+                [
+                    271.9580078125,
+                    163.95196533203125,
+                    344.9300231933594,
+                    178.60397338867188
+                ]
+            ],
+            "page": "page_2"
+        }
+    }
+]

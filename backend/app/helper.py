@@ -104,17 +104,16 @@ def llm_process(pdf_file_path, patient_info_file_path):
     You are medical report summarizer and related patient info, provide what a doctor would want to explain to a patient who doesn't understand difficult healthcare terminology. 
     Find key details and select words and phrases that are specific to healthcare and involve complex terminology without including simple words. 
     Key details should be formated as a dictionary where the key is the extracted text from the document and the value is the more readable summary.
-    This list should include EVERY word that could be possibly confusing for a patient to read. 
     Absolutely DO NOT include elementary words about history, symptoms, characterization, or patient identification. 
     ONLY put key details that normal people would not understand, challenging medical terms for key details. 
-    Include every disease name, condition symptom, or anatomical location. 
     Absolutely DO NOT include source information. 
     Absolutely DO NOT provide details on hospital locations or terms. 
     Avoid choosing phrases over direct words when possible. 
     DO NOT incliude the words admissmion, history, or chief complaint. 
 
     
-    Personal takeaways that summarize the report and relate to patient info
+    Personal takeaways that summarize the report.
+    The personal takeaway must be related to the Patient info and specifically the patient info's current conditions.
     
     Patient Info:
     {patient_info_str}
@@ -147,10 +146,10 @@ def llm_process(pdf_file_path, patient_info_file_path):
     Format the tasks by numbering each one with a short but descriptive header, and including the specific actions and purpose of the task below that. 
     The headers should ve quantified if applicable (e.g. take 2 mg Aspirin twice daily). 
     Keep in mind low literacy level, but not at the cost of incorrect medical vocab (to prevent miscommunication). 
-    Create 3-20 tasks, depending on what makes sense. Each separate medication and or PT exercise, etc is a separate task. 
+    Create 3-20 tasks, Must have at least one task, depending on what makes sense. Each separate medication and or PT exercise, etc is a separate task. 
     Put this into json format. Use the header of each task as the key and do not number the tasks, and then any extra details as the value.
 
-    Must be JSON format.
+    IMPORTANT: Must be JSON format where key is a string of a task name, and value is string of a task summary and reason.
 
     Data to read:
         Patient Info:

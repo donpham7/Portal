@@ -5,9 +5,9 @@
   "user_id": 5,
   "patient_info": {
     "name": "Pamela Rogers",
-    "notes": "Patient is obese and has heart issues",
+    "notes": "Pamela Rogers presents with ongoing knee tendinitis, reporting stiffness and discomfort with movement. Lab results indicate low iron levels, and she continues to experience flare-ups of eczema on her forearms. She is advised to follow her iron supplementation regimen, manage joint strain, and apply prescribed topical treatments as needed.",
     "age": 22,
     "medical_id": "med-1005",
-    "conditions": ["obesity", "asthma", "heart issues", "bronchitis"]
+    "conditions": ["Patellar Tendinopathy", "Iron Deficiency Anemia", "Atopic Dermatitis", "bronchitis"]
   }
 }

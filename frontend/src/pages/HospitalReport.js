@@ -106,12 +106,7 @@ function TaskItem({ taskName, taskData, onAccept, onDecline, onEdit }) {
       }}
     >
       <strong>{taskName}</strong>
-      <p>
-        <strong>Action:</strong> {taskData.action}
-      </p>
-      <p>
-        <strong>Purpose:</strong> {taskData.purpose}
-      </p>
+      <p>{taskData}</p>
 
       <div style={{ marginTop: "0.5rem" }}>
         <button

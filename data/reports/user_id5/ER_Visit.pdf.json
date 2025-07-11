@@ -1,0 +1,72 @@
+[
+    {
+        "filename": "MedicalReportSummary",
+        "key_details": {
+            "Arrhythmia": "An irregular or abnormal heart rhythm.",
+            "Basic Metabolic Panel": "A blood test that provides information about kidney function, blood sugar levels, and electrolyte balance.",
+            "EKG showed normal sinus rhythm with no acute abnormalities": "The heart's electrical activity was regular and did not show any immediate concerning issues.",
+            "Echocardiogram": "An ultrasound test that uses sound waves to create moving pictures of the heart, showing its structure and how well it's pumping.",
+            "Focal deficits": "Specific problems with brain or nerve function that affect a particular area of the body.",
+            "Hemodynamically stable": "A state where the body's blood flow and blood pressure are consistent and within a healthy range.",
+            "Orthostatic Blood Pressure Measurements": "Blood pressure readings taken while lying down, sitting, and standing to assess how blood pressure changes with different body positions.",
+            "Palpitations": "The sensation of your heart beating rapidly, strongly, or irregularly, like fluttering or pounding.",
+            "Seizure activity": "Abnormal, uncontrolled electrical disturbances in the brain that can cause changes in awareness, behavior, or movements.",
+            "Structural heart abnormality": "A problem with the physical shape or parts of the heart.",
+            "Syncope": "A brief loss of consciousness due to a temporary reduction of blood flow to the brain.",
+            "Tilt-table test": "A test where you lie on a table that is tilted upright to see how your heart rate and blood pressure respond to changes in position, helping to identify causes of fainting.",
+            "Vasovagal syncope": "A common type of fainting caused by a temporary drop in heart rate and blood pressure, often triggered by things like prolonged standing, emotional stress, or pain."
+        },
+        "personal_takeaways": "Your recent fainting episode, while understandably unsettling, appears to be a common type known as vasovagal syncope, and medical evaluation did not reveal any new serious heart or neurological concerns. Given your existing iron deficiency anemia, it's particularly important to adhere to your iron supplementation regimen and ensure consistent hydration and nutrition to help prevent future occurrences of feeling lightheaded or fainting."
+    },
+    {
+        "Apply Topical Cream for Eczema": "Use the special cream or ointment prescribed for your eczema on your forearms when needed, especially when your skin flares up.",
+        "Drink Plenty of Fluids": "Stay well hydrated by drinking water or other fluids throughout the day. This helps your blood pressure stay steady and prevents dizziness or fainting.",
+        "Eat Regular Meals": "Make sure you eat balanced meals regularly and avoid skipping them. This helps keep your blood sugar steady and gives you energy, preventing weakness or feeling faint.",
+        "Follow Up with Your Doctor in 7 Days": "Call your regular doctor's office within the next week to set up an appointment. They will review your fainting episode and decide if you need more tests.",
+        "Get Enough Rest": "Get adequate sleep and rest when you feel tired. Being well-rested supports your overall health and can help prevent fainting episodes.",
+        "Manage Knee Strain": "Be careful with activities that put stress on your knees to help manage your knee tendinitis. Avoid movements that cause pain.",
+        "Return for Another Fainting Episode (Sitting/Lying)": "Go to the emergency room immediately if you faint again, especially if you were sitting or lying down when it happened.",
+        "Return for Chest Pain or Shortness of Breath": "Go to the emergency room immediately if you have new chest pain or trouble breathing.",
+        "Return for Confusion or Difficulty Speaking": "Go to the emergency room immediately if you are confused for a long time or have trouble speaking after any fainting episode.",
+        "Return for Heart Palpitations": "Go to the emergency room immediately if your heart feels like it's racing, pounding, or fluttering strangely.",
+        "Return for New Neurological Symptoms": "Go to the emergency room immediately if you notice any new problems like numbness, weakness, vision changes, or difficulty walking.",
+        "Stand Up Slowly": "When you change from sitting or lying down to standing, do it slowly. This gives your body time to adjust and helps prevent feeling dizzy or fainting.",
+        "Take Iron Supplements as Directed": "Continue taking your prescribed iron pills exactly as your doctor told you. This is important to treat your low iron levels."
+    },
+    {
+        "Palpitations": {
+            "bbox": [
+                [
+                    108.0199966430664,
+                    618.2319946289062,
+                    169.42398071289062,
+                    632.8839721679688
+                ],
+                [
+                    108.0199966430664,
+                    618.2319946289062,
+                    169.42398071289062,
+                    632.8839721679688
+                ]
+            ],
+            "page": "page_2"
+        },
+        "Syncope": {
+            "bbox": [
+                [
+                    163.29603576660156,
+                    122.91199493408203,
+                    210.39602661132812,
+                    137.56399536132812
+                ],
+                [
+                    163.29603576660156,
+                    122.91199493408203,
+                    210.39602661132812,
+                    137.56399536132812
+                ]
+            ],
+            "page": "page_1"
+        }
+    }
+]

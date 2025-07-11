@@ -1,0 +1,152 @@
+[
+    {
+        "filename": "General Health Check-up Report",
+        "key_details": {
+            "25-hydroxyvitamin D": "The specific form of Vitamin D measured in your blood to check your body's levels.",
+            "HDL": "A type of cholesterol that helps remove excess cholesterol from your body.",
+            "LDL cholesterol": "A type of cholesterol that, when elevated, may contribute to deposits in blood vessels.",
+            "adventitious sounds": "Extra or abnormal sounds heard in the lungs, like wheezing or crackling, which can suggest breathing issues.",
+            "gait": "The way a person walks.",
+            "lesions": "Any area of abnormal tissue or skin.",
+            "murmurs": "Unusual sounds heard during a heartbeat, which can sometimes indicate a heart condition.",
+            "musculoskeletal symptoms": "Discomfort or issues affecting your muscles and bones.",
+            "organomegaly": "Enlargement of an organ beyond its normal size."
+        },
+        "personal_takeaways": "Based on your ongoing health needs, it's important to continue your iron supplementation regimen as advised for your low iron levels. You should also continue to manage any discomfort or strain related to your knee tendinitis and consistently apply your prescribed topical treatments for your eczema flare-ups on your forearms."
+    },
+    {
+        "Apply Eczema Cream": "Use your prescribed topical treatments on your forearms when your eczema flares up.",
+        "Attend Next Lab Draw": "Go to your next routine blood test to check your cholesterol and vitamin levels.",
+        "Consider Vitamin D Supplement": "Think about taking a low-dose Vitamin D supplement, especially if you have limited sun exposure.",
+        "Continue Iron Supplements": "Take your prescribed iron supplements as directed to help improve your iron levels.",
+        "Eat Healthy Fats and Fiber": "Add more healthy fats, like olive oil and nuts, and foods high in fiber to your diet to help manage your cholesterol levels.",
+        "Include Vitamin D Foods": "Eat more foods rich in Vitamin D, such as fortified dairy or salmon.",
+        "Limit Fast Food": "Try to eat less fast food to help manage your cholesterol.",
+        "Manage Knee Discomfort": "Follow your plan to reduce strain and discomfort in your knee from tendinitis.",
+        "Observe Body Changes": "Pay attention to how your body feels each day, including your energy, digestion, and mood, as these can show early changes.",
+        "Practice Sun Protection": "Keep protecting your skin from the sun's rays.",
+        "Schedule Annual Check-up": "Plan for your next annual check-up to review your health trends.",
+        "Spend Time Outdoors": "Spend more time outside when possible to help your body make more Vitamin D."
+    },
+    {
+        "25-hydroxyvitamin D": {
+            "bbox": [
+                [
+                    97.38001251220703,
+                    594.2319946289062,
+                    192.23597717285156,
+                    608.8839721679688
+                ],
+                [
+                    194.7799835205078,
+                    594.2319946289062,
+                    203.01197814941406,
+                    608.8839721679688
+                ]
+            ],
+            "page": "page_1"
+        },
+        "HDL": {
+            "bbox": [
+                [
+                    372.3240051269531,
+                    400.5019836425781,
+                    395.0760192871094,
+                    415.15399169921875
+                ],
+                [
+                    372.3240051269531,
+                    400.5019836425781,
+                    395.0760192871094,
+                    415.15399169921875
+                ]
+            ],
+            "page": "page_1"
+        },
+        "LDL cholesterol": {
+            "bbox": [
+                [
+                    292.5480041503906,
+                    383.5820007324219,
+                    312.8160095214844,
+                    398.2340087890625
+                ],
+                [
+                    315.21600341796875,
+                    383.5820007324219,
+                    373.55999755859375,
+                    398.2340087890625
+                ]
+            ],
+            "page": "page_1"
+        },
+        "gait": {
+            "bbox": [
+                [
+                    356.24005126953125,
+                    213.87200927734375,
+                    375.1160888671875,
+                    228.52401733398438
+                ],
+                [
+                    356.24005126953125,
+                    213.87200927734375,
+                    375.1160888671875,
+                    228.52401733398438
+                ]
+            ],
+            "page": "page_2"
+        },
+        "lesions": {
+            "bbox": [
+                [
+                    155.28799438476562,
+                    188.9119873046875,
+                    192.45199584960938,
+                    203.56399536132812
+                ],
+                [
+                    155.28799438476562,
+                    188.9119873046875,
+                    192.45199584960938,
+                    203.56399536132812
+                ]
+            ],
+            "page": "page_2"
+        },
+        "murmurs": {
+            "bbox": [
+                [
+                    459.37408447265625,
+                    121.95197296142578,
+                    506.9180603027344,
+                    136.60397338867188
+                ],
+                [
+                    459.37408447265625,
+                    121.95197296142578,
+                    506.9180603027344,
+                    136.60397338867188
+                ]
+            ],
+            "page": "page_2"
+        },
+        "organomegaly": {
+            "bbox": [
+                [
+                    271.9580078125,
+                    163.95196533203125,
+                    344.9300231933594,
+                    178.60397338867188
+                ],
+                [
+                    271.9580078125,
+                    163.95196533203125,
+                    344.9300231933594,
+                    178.60397338867188
+                ]
+            ],
+            "page": "page_2"
+        }
+    }
+]

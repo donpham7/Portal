@@ -1,0 +1,1033 @@
+[
+    {
+        "filename": "Medical_Summary_Report_Don_Pham",
+        "key_details": {
+            "ACE inhibitor": "A type of medicine that helps relax blood vessels.",
+            "Acetaminophen": "A specific medicine for pain.",
+            "Acid reflux": "Stomach acid coming back up.",
+            "Amlodipine": "A specific medicine.",
+            "Antacids": "Medicines that help settle stomach acid.",
+            "Benzoyl peroxide": "A specific skin medicine for acne.",
+            "CBC": "A common blood test that checks different parts of your blood.",
+            "Calcium channel blocker": "A type of medicine that helps relax blood vessels.",
+            "Chronic Low Back Pain (Non-Radicular)": "Long-lasting back pain that does not spread down your leg.",
+            "Clindamycin": "A specific skin medicine for acne.",
+            "Cognitive Behavioral Therapy (CBT)": "A type of talking therapy that helps change unhelpful thoughts and behaviors.",
+            "Cognitive Behavioral Therapy for Insomnia (CBT-I)": "A type of therapy that teaches you how to improve your sleep.",
+            "Comedones": "Blackheads and whiteheads.",
+            "Core strengthening": "Exercises to make your belly and back muscles stronger.",
+            "Diclofenac gel": "A specific pain and swelling medicine in gel form.",
+            "Ferrous sulfate": "A specific iron medicine.",
+            "Fexofenadine": "A specific medicine.",
+            "Fluticasone nasal spray": "A specific nasal spray medicine.",
+            "GLP-1 agonist": "A type of medicine that helps manage blood sugar and can help with weight loss.",
+            "Gastroesophageal Reflux Disease (GERD)": "A condition where stomach acid comes back up into your food pipe often.",
+            "Generalized Anxiety Disorder (GAD)": "A condition causing a lot of worry that is hard to control.",
+            "HEPA filters": "Special air filters that remove small particles.",
+            "HbA1c": "A blood test that shows your average blood sugar over the last 2-3 months.",
+            "Hydroxyzine": "A specific medicine.",
+            "Hypertension": "High blood pressure.",
+            "Hypothyroidism": "A condition where your thyroid gland doesn't make enough hormones.",
+            "Insomnia (Initial/Intermediate)": "Trouble falling asleep or staying asleep through the night.",
+            "Iron Deficiency Anemia": "A condition where your body doesn't have enough healthy red blood cells because of low iron.",
+            "Levothyroxine": "A specific medicine for an underactive thyroid.",
+            "Lisinopril": "A specific medicine.",
+            "Loratadine": "A specific medicine.",
+            "Medication compliance": "Taking your medicines exactly as prescribed.",
+            "Melatonin": "A natural hormone that helps you sleep.",
+            "Metformin": "A specific medicine.",
+            "Mild Acne Vulgaris": "Common pimples, blackheads, and whiteheads.",
+            "Omeprazole": "A specific medicine.",
+            "Physical Therapy": "Treatment that uses exercises and other methods to help with pain and movement.",
+            "Psychotherapy": "Talking therapy to help with mental health.",
+            "Red Flag Review": "A check for serious signs that might mean a bigger health problem.",
+            "SSRI": "A type of medicine that helps balance brain chemicals to improve mood.",
+            "Saline nasal irrigation": "Rinsing your nose with salt water.",
+            "Seasonal Allergic Rhinitis": "Hay fever, which causes allergy symptoms during certain seasons.",
+            "Semaglutide": "A specific medicine.",
+            "Sertraline": "A specific medicine.",
+            "Sleep Hygiene": "Good habits that help you sleep better.",
+            "Topical NSAIDs": "Pain and swelling medicines you put on your skin.",
+            "Trazodone": "A specific medicine that can help with sleep.",
+            "Type 2 Diabetes Mellitus": "A condition where your body has trouble controlling blood sugar.",
+            "absorption": "How well your body takes in a substance.",
+            "acute anxiety": "Sudden, strong feelings of worry or nervousness.",
+            "adapalene": "A specific skin medicine for acne.",
+            "bi-weekly": "Every two weeks.",
+            "breakthrough symptoms": "Symptoms that still happen even when you are taking medicine.",
+            "brittle nails": "Nails that easily break.",
+            "calcium carbonate": "A specific medicine used to settle stomach acid.",
+            "cardiovascular benefit": "Good effects for your heart and blood vessels.",
+            "cold intolerance": "Feeling cold more easily than others.",
+            "constipation": "Having trouble with bowel movements.",
+            "contraindications": "Reasons why you should not take a certain medicine or treatment.",
+            "degenerative": "Caused by wear and tear over time.",
+            "elevated TSH": "A high level of a hormone that signals your thyroid is not working enough.",
+            "empty stomach": "When you haven't eaten anything for a while.",
+            "fasting blood glucose": "Your blood sugar level after not eating for a period of time.",
+            "ferritin": "A protein that stores iron in your body.",
+            "hematocrit": "The amount of red blood cells in your blood.",
+            "hemoglobin": "A part of your red blood cells that carries oxygen.",
+            "incontinence": "Losing control of your bladder or bowels.",
+            "lifestyle modifications": "Changes to your daily habits to improve your health.",
+            "long-term well-being": "Your health and happiness over a long time.",
+            "low free T4": "A low level of the main thyroid hormone.",
+            "mechanical": "Related to how your body moves.",
+            "mmHg": "A unit of measurement for blood pressure.",
+            "muscular": "Related to muscles.",
+            "nasal congestion": "Stuffy nose.",
+            "neurological deficits": "Problems with your nerves, brain, or spinal cord that affect how your body works.",
+            "non-comedogenic products": "Products that will not block your pores.",
+            "non-drowsy antihistamines": "Allergy medicines that don't make you sleepy.",
+            "oral NSAIDs": "Pain and swelling medicines you take by mouth.",
+            "pallor": "Paleness of the skin.",
+            "papules": "Small, red bumps on the skin.",
+            "periodic labs": "Regular blood tests or other tests.",
+            "pica": "Craving and eating non-food items.",
+            "pollen seasons": "Times of year when plants release pollen that causes allergies.",
+            "polydipsia": "Feeling unusually thirsty.",
+            "polyuria": "Urinating more than usual.",
+            "posture training": "Learning how to hold your body correctly.",
+            "primary care provider": "Your main doctor.",
+            "psychiatry": "The medical field that treats mental health conditions.",
+            "pustules": "Small bumps on the skin filled with pus.",
+            "radiating symptoms": "Pain that spreads from one area to another.",
+            "regurgitation": "Food or liquid coming back up into your throat or mouth.",
+            "routine health screening": "Regular check-ups to find health problems early.",
+            "transferrin saturation": "A measure of how much iron is available in your blood."
+        },
+        "personal_takeaways": "Don, even though you are a very healthy and active athlete, this report outlines several ongoing medical conditions we need to manage to ensure your continued well-being and peak performance. These include managing your blood pressure and sugar levels with specific medications and lifestyle adjustments. We also have plans in place to address your acid reflux, anxiety, potential iron deficiency, seasonal allergies, any back discomfort, your thyroid function, acne, and sleep. Consistently taking your medications, making the recommended daily habit changes, and attending your regular check-ups and lab tests are crucial for keeping you healthy and excelling in your athletic endeavors."
+    },
+    {
+        "Apply Adapalene 0.1% Gel at Night": "Apply Adapalene 0.1% gel to your skin at night for acne.",
+        "Apply Benzoyl Peroxide 2.5-5% Gel Once Daily": "Apply Benzoyl Peroxide gel (2.5-5%) to your skin once a day for acne.",
+        "Apply Clindamycin 1% Topical Solution in the Morning": "Apply Clindamycin 1% solution to your skin in the morning for acne.",
+        "Apply Topical NSAIDs (e.g., Diclofenac Gel)": "Apply topical anti-inflammatory medicines like Diclofenac gel to the affected area for pain relief.",
+        "Avoid Caffeine and Alcohol in the Evening": "Do not consume caffeine or alcohol in the evening, as they can disrupt sleep.",
+        "Avoid Iron/Calcium Supplements Within 4 Hours of Levothyroxine": "Do not take iron or calcium supplements within 4 hours of taking your Levothyroxine.",
+        "Avoid Screen Use Before Sleep": "Do not use screens (phone, computer, TV) before going to bed.",
+        "Avoid Scrubbing Your Skin": "Do not scrub your skin, as this can irritate acne.",
+        "Avoid Spicy and Fatty Foods": "Limit or avoid foods that are spicy or fatty to reduce acid reflux symptoms.",
+        "Avoid Taking Iron with Calcium or Dairy": "Do not take your iron supplement at the same time as calcium supplements or dairy products.",
+        "Check Your Blood Pressure at Home Every Two Weeks": "Use a home blood pressure monitor to check your blood pressure every two weeks.",
+        "Cleanse Your Skin Gently": "Wash your skin gently to help manage your acne.",
+        "Do Regular Aerobic and Resistance Exercises": "Include both aerobic exercises (like brisk walking) and resistance exercises (like lifting weights) regularly in your routine.",
+        "Eat Smaller Meals": "Try eating smaller portions more frequently instead of large meals to help with digestion and reflux.",
+        "Elevate the Head of Your Bed": "Raise the head of your bed when you sleep to help prevent acid reflux.",
+        "Engage in Cognitive Behavioral Therapy (CBT)": "Participate in Cognitive Behavioral Therapy sessions as recommended to help manage anxiety.",
+        "Follow Up with Your Primary Care Provider": "Schedule and attend regular follow-up appointments with your main doctor for ongoing management of your health.",
+        "Follow a Low-Carb Diet": "Adjust your diet to include fewer carbohydrates to help manage your blood sugar levels.",
+        "Get Blood Sugar Tests Every 3 Months": "Schedule and attend appointments to check your fasting blood sugar and HbA1c every 3 months to monitor your diabetes.",
+        "Go to Bed at a Consistent Time": "Try to go to bed at the same time every night to improve your sleep.",
+        "Increase Intake of Red Meat, Legumes, and Spinach": "Eat more foods like red meat, beans, lentils, and spinach to help increase your iron levels.",
+        "Increase Physical Activity to 150 Minutes Per Week": "Aim for at least 150 minutes of physical activity each week to improve your overall health and blood pressure.",
+        "Keep Windows Closed During Pollen Season": "Keep your windows closed, especially during pollen seasons, to reduce allergy exposure.",
+        "Maintain a Healthy Weight": "Work towards maintaining a healthy weight as part of your overall health management plan.",
+        "Perform Core Strengthening and Posture Training Exercises": "Do the core strengthening and posture training exercises given to you by your physical therapist to help with back pain.",
+        "Reduce Sodium Intake to Less Than 1500 mg Daily": "Limit your daily sodium intake to less than 1500 milligrams to help manage your blood pressure.",
+        "Shower After Being Outdoors": "Shower after you have been outside to wash off any pollen or allergens.",
+        "Take Acetaminophen 500-1000 mg Every 6 Hours As Needed (Max 3g/day)": "Take Acetaminophen 500 to 1000 milligrams every 6 hours as needed for pain, but do not take more than 3 grams in one day.",
+        "Take Amlodipine 5 mg Once Daily": "Take your Amlodipine 5 milligrams exactly once a day as prescribed.",
+        "Take Antacids (e.g., Calcium Carbonate) As Needed": "Use antacids like calcium carbonate if you experience breakthrough heartburn symptoms.",
+        "Take Ferrous Sulfate 325 mg Once or Twice Daily with Vitamin C": "Take your Ferrous Sulfate 325 milligrams either once or twice a day, and take it with Vitamin C to help your body absorb it better.",
+        "Take Hydroxyzine 25 mg As Needed for Acute Anxiety": "Take Hydroxyzine 25 milligrams when you feel sudden, strong anxiety, as needed.",
+        "Take Levothyroxine 50 mcg Once Daily on an Empty Stomach in the Morning": "Take your Levothyroxine 50 micrograms once a day, in the morning, on an empty stomach.",
+        "Take Lisinopril 10 mg Once Daily": "Take your Lisinopril 10 milligrams exactly once a day as prescribed.",
+        "Take Loratadine 10 mg Once Daily OR Fexofenadine 180 mg Once Daily": "Choose to take either Loratadine 10 milligrams once a day or Fexofenadine 180 milligrams once a day for your allergies.",
+        "Take Melatonin 3-5 mg 30 Minutes Before Bed": "Take Melatonin 3 to 5 milligrams about 30 minutes before you plan to go to bed.",
+        "Take Metformin 500 mg Twice Daily with Meals": "Take your Metformin 500 milligrams two times a day with your meals.",
+        "Take Omeprazole 20 mg Once Daily Before Breakfast": "Take your Omeprazole 20 milligrams once a day, before you eat breakfast.",
+        "Take Sertraline 50 mg Daily": "Take your Sertraline 50 milligrams exactly once a day as prescribed.",
+        "Take Trazodone 25-50 mg As Needed if Melatonin Fails": "If Melatonin doesn't help you sleep, you may take Trazodone 25 to 50 milligrams as needed.",
+        "Use Fluticasone Nasal Spray 1 Spray Per Nostril Once Daily": "Use Fluticasone nasal spray, 1 spray in each nostril, once a day.",
+        "Use HEPA Filters": "Consider using HEPA filters in your home to improve air quality and reduce allergens.",
+        "Use Non-Comedogenic Skin Products": "Choose skin products that are labeled 'non-comedogenic,' meaning they won't clog your pores.",
+        "Use Saline Nasal Irrigation As Needed": "Rinse your nose with a saline (saltwater) solution as often as needed to relieve congestion."
+    },
+    {
+        "Acetaminophen": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    572.3920288085938,
+                    226.43600463867188,
+                    587.0440063476562
+                ],
+                [
+                    144.02000427246094,
+                    572.3920288085938,
+                    226.43600463867188,
+                    587.0440063476562
+                ]
+            ],
+            "page": "page_3"
+        },
+        "Acid reflux": {
+            "bbox": [
+                [
+                    185.17999267578125,
+                    72.03199005126953,
+                    208.20797729492188,
+                    86.68399047851562
+                ],
+                [
+                    210.64398193359375,
+                    72.03199005126953,
+                    239.5279998779297,
+                    86.68399047851562
+                ]
+            ],
+            "page": "page_2"
+        },
+        "Amlodipine": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    339.6619873046875,
+                    203.28799438476562,
+                    354.3139953613281
+                ],
+                [
+                    144.02000427246094,
+                    339.6619873046875,
+                    203.28799438476562,
+                    354.3139953613281
+                ]
+            ],
+            "page": "page_1"
+        },
+        "Antacids": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    230.7919921875,
+                    189.67999267578125,
+                    245.44400024414062
+                ],
+                [
+                    144.02000427246094,
+                    230.7919921875,
+                    189.67999267578125,
+                    245.44400024414062
+                ]
+            ],
+            "page": "page_2"
+        },
+        "Benzoyl peroxide": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    397.62200927734375,
+                    184.24398803710938,
+                    412.2740173339844
+                ],
+                [
+                    186.6199951171875,
+                    397.62200927734375,
+                    231.2480010986328,
+                    412.2740173339844
+                ]
+            ],
+            "page": "page_4"
+        },
+        "CBC": {
+            "bbox": [
+                [
+                    157.95201110839844,
+                    121.95197296142578,
+                    182.239990234375,
+                    136.60397338867188
+                ],
+                [
+                    157.95201110839844,
+                    121.95197296142578,
+                    182.239990234375,
+                    136.60397338867188
+                ]
+            ],
+            "page": "page_3"
+        },
+        "Chronic Low Back Pain (Non-Radicular)": {
+            "bbox": [
+                [
+                    84.38399505615234,
+                    430.6419982910156,
+                    127.78799438476562,
+                    445.29400634765625
+                ],
+                [
+                    210.36001586914062,
+                    430.6419982910156,
+                    296.7020263671875,
+                    445.29400634765625
+                ]
+            ],
+            "page": "page_3"
+        },
+        "Clindamycin": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    422.60198974609375,
+                    209.17999267578125,
+                    437.2539978027344
+                ],
+                [
+                    144.02000427246094,
+                    422.60198974609375,
+                    209.17999267578125,
+                    437.2539978027344
+                ]
+            ],
+            "page": "page_4"
+        },
+        "Cognitive Behavioral Therapy (CBT)": {
+            "bbox": [
+                [
+                    194.69000244140625,
+                    397.62200927734375,
+                    243.24200439453125,
+                    412.2740173339844
+                ],
+                [
+                    345.7340393066406,
+                    397.62200927734375,
+                    373.58599853515625,
+                    412.2740173339844
+                ]
+            ],
+            "page": "page_2"
+        },
+        "Ferrous sulfate": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    664.31201171875,
+                    183.46401977539062,
+                    678.9639892578125
+                ],
+                [
+                    185.9000244140625,
+                    664.31201171875,
+                    221.3000030517578,
+                    678.9639892578125
+                ]
+            ],
+            "page": "page_2"
+        },
+        "Fexofenadine": {
+            "bbox": [
+                [
+                    303.7160339355469,
+                    313.74200439453125,
+                    373.0039978027344,
+                    328.3940124511719
+                ],
+                [
+                    303.7160339355469,
+                    313.74200439453125,
+                    373.0039978027344,
+                    328.3940124511719
+                ]
+            ],
+            "page": "page_3"
+        },
+        "Fluticasone nasal spray": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    355.62200927734375,
+                    204.739990234375,
+                    370.2740173339844
+                ],
+                [
+                    237.73997497558594,
+                    355.62200927734375,
+                    265.7239685058594,
+                    370.2740173339844
+                ]
+            ],
+            "page": "page_3"
+        },
+        "GLP-1 agonist": {
+            "bbox": [
+                [
+                    193.7119903564453,
+                    581.3920288085938,
+                    224.3780059814453,
+                    596.0440063476562
+                ],
+                [
+                    226.76600646972656,
+                    581.3920288085938,
+                    264.56597900390625,
+                    596.0440063476562
+                ]
+            ],
+            "page": "page_1"
+        },
+        "Gastroesophageal Reflux Disease (GERD)": {
+            "bbox": [
+                [
+                    84.38399505615234,
+                    673.31201171875,
+                    184.28399658203125,
+                    687.9639892578125
+                ],
+                [
+                    270.21600341796875,
+                    673.31201171875,
+                    308.70001220703125,
+                    687.9639892578125
+                ]
+            ],
+            "page": "page_1"
+        },
+        "Generalized Anxiety Disorder (GAD)": {
+            "bbox": [
+                [
+                    84.38399505615234,
+                    305.7019958496094,
+                    149.93997192382812,
+                    320.35400390625
+                ],
+                [
+                    244.84796142578125,
+                    305.7019958496094,
+                    276.14398193359375,
+                    320.35400390625
+                ]
+            ],
+            "page": "page_2"
+        },
+        "HbA1c": {
+            "bbox": [
+                [
+                    420.4519348144531,
+                    439.5220031738281,
+                    455.50390625,
+                    454.17401123046875
+                ],
+                [
+                    288.739990234375,
+                    623.3920288085938,
+                    323.6839599609375,
+                    638.0440063476562
+                ]
+            ],
+            "page": "page_1"
+        },
+        "Hydroxyzine": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    472.5220031738281,
+                    206.73199462890625,
+                    487.17401123046875
+                ],
+                [
+                    144.02000427246094,
+                    472.5220031738281,
+                    206.73199462890625,
+                    487.17401123046875
+                ]
+            ],
+            "page": "page_2"
+        },
+        "Hypertension": {
+            "bbox": [
+                [
+                    84.38399505615234,
+                    155.9119873046875,
+                    158.48402404785156,
+                    170.56399536132812
+                ],
+                [
+                    84.38399505615234,
+                    155.9119873046875,
+                    158.48402404785156,
+                    170.56399536132812
+                ]
+            ],
+            "page": "page_1"
+        },
+        "Hypothyroidism": {
+            "bbox": [
+                [
+                    84.38399505615234,
+                    72.03199005126953,
+                    171.6719970703125,
+                    86.68399047851562
+                ],
+                [
+                    84.38399505615234,
+                    72.03199005126953,
+                    171.6719970703125,
+                    86.68399047851562
+                ]
+            ],
+            "page": "page_4"
+        },
+        "Insomnia (Initial/Intermediate)": {
+            "bbox": [
+                [
+                    90.85199737548828,
+                    522.4419555664062,
+                    141.635986328125,
+                    537.0939331054688
+                ],
+                [
+                    144.01199340820312,
+                    522.4419555664062,
+                    257.83197021484375,
+                    537.0939331054688
+                ]
+            ],
+            "page": "page_4"
+        },
+        "Iron Deficiency Anemia": {
+            "bbox": [
+                [
+                    84.38399505615234,
+                    547.4019775390625,
+                    105.97199249267578,
+                    562.053955078125
+                ],
+                [
+                    169.11598205566406,
+                    547.4019775390625,
+                    210.83999633789062,
+                    562.053955078125
+                ]
+            ],
+            "page": "page_2"
+        },
+        "Levothyroxine": {
+            "bbox": [
+                [
+                    175.22000122070312,
+                    163.95196533203125,
+                    246.7160186767578,
+                    178.60397338867188
+                ],
+                [
+                    175.22000122070312,
+                    163.95196533203125,
+                    246.7160186767578,
+                    178.60397338867188
+                ]
+            ],
+            "page": "page_4"
+        },
+        "Lisinopril": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    314.7019958496094,
+                    191.5159912109375,
+                    329.35400390625
+                ],
+                [
+                    144.02000427246094,
+                    314.7019958496094,
+                    191.5159912109375,
+                    329.35400390625
+                ]
+            ],
+            "page": "page_1"
+        },
+        "Loratadine": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    313.74200439453125,
+                    199.19598388671875,
+                    328.3940124511719
+                ],
+                [
+                    144.02000427246094,
+                    313.74200439453125,
+                    199.19598388671875,
+                    328.3940124511719
+                ]
+            ],
+            "page": "page_3"
+        },
+        "Melatonin": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    681.2279663085938,
+                    195.7519989013672,
+                    695.8799438476562
+                ],
+                [
+                    144.02000427246094,
+                    681.2279663085938,
+                    195.7519989013672,
+                    695.8799438476562
+                ]
+            ],
+            "page": "page_4"
+        },
+        "Metformin": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    556.4019775390625,
+                    197.30001831054688,
+                    571.053955078125
+                ],
+                [
+                    144.02000427246094,
+                    556.4019775390625,
+                    197.30001831054688,
+                    571.053955078125
+                ]
+            ],
+            "page": "page_1"
+        },
+        "Mild Acne Vulgaris": {
+            "bbox": [
+                [
+                    84.38399505615234,
+                    280.74200439453125,
+                    108.08399200439453,
+                    295.3940124511719
+                ],
+                [
+                    140.6639862060547,
+                    280.74200439453125,
+                    184.84799194335938,
+                    295.3940124511719
+                ]
+            ],
+            "page": "page_4"
+        },
+        "Omeprazole": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    205.83197021484375,
+                    207.23599243164062,
+                    220.48397827148438
+                ],
+                [
+                    144.02000427246094,
+                    205.83197021484375,
+                    207.23599243164062,
+                    220.48397827148438
+                ]
+            ],
+            "page": "page_2"
+        },
+        "Saline nasal irrigation": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    380.7019958496094,
+                    176.1439971923828,
+                    395.35400390625
+                ],
+                [
+                    209.16798400878906,
+                    380.7019958496094,
+                    254.91195678710938,
+                    395.35400390625
+                ]
+            ],
+            "page": "page_3"
+        },
+        "Seasonal Allergic Rhinitis": {
+            "bbox": [
+                [
+                    84.38399505615234,
+                    171.87200927734375,
+                    135.08399963378906,
+                    186.52401733398438
+                ],
+                [
+                    181.41600036621094,
+                    171.87200927734375,
+                    223.05601501464844,
+                    186.52401733398438
+                ]
+            ],
+            "page": "page_3"
+        },
+        "Sertraline": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    447.5619812011719,
+                    194.0240020751953,
+                    462.2139892578125
+                ],
+                [
+                    144.02000427246094,
+                    447.5619812011719,
+                    194.0240020751953,
+                    462.2139892578125
+                ]
+            ],
+            "page": "page_2"
+        },
+        "Topical NSAIDs": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    597.3519897460938,
+                    180.75198364257812,
+                    612.0039672851562
+                ],
+                [
+                    183.13998413085938,
+                    597.3519897460938,
+                    222.66796875,
+                    612.0039672851562
+                ]
+            ],
+            "page": "page_3"
+        },
+        "Trazodone": {
+            "bbox": [
+                [
+                    193.7119903564453,
+                    72.03199005126953,
+                    246.89596557617188,
+                    86.68399047851562
+                ],
+                [
+                    193.7119903564453,
+                    72.03199005126953,
+                    246.89596557617188,
+                    86.68399047851562
+                ]
+            ],
+            "page": "page_5"
+        },
+        "Type 2 Diabetes Mellitus": {
+            "bbox": [
+                [
+                    84.38399505615234,
+                    414.5619812011719,
+                    109.64399719238281,
+                    429.2139892578125
+                ],
+                [
+                    172.43995666503906,
+                    414.5619812011719,
+                    216.7439422607422,
+                    429.2139892578125
+                ]
+            ],
+            "page": "page_1"
+        },
+        "absorption": {
+            "bbox": [
+                [
+                    144.02000427246094,
+                    681.2279663085938,
+                    200.083984375,
+                    695.8799438476562
+                ],
+                [
+                    144.02000427246094,
+                    681.2279663085938,
+                    200.083984375,
+                    695.8799438476562
+                ]
+            ],
+            "page": "page_2"
+        },
+        "adapalene": {
+            "bbox": [
+                [
+                    373.8920593261719,
+                    422.60198974609375,
+                    428.86407470703125,
+                    437.2539978027344
+                ],
+                [
+                    373.8920593261719,
+                    422.60198974609375,
+                    428.86407470703125,
+                    437.2539978027344
+                ]
+            ],
+            "page": "page_4"
+        },
+        "breakthrough symptoms": {
+            "bbox": [
+                [
+                    395.9599914550781,
+                    230.7919921875,
+                    465.04400634765625,
+                    245.44400024414062
+                ],
+                [
+                    467.4320068359375,
+                    230.7919921875,
+                    522.0800170898438,
+                    245.44400024414062
+                ]
+            ],
+            "page": "page_2"
+        },
+        "cardiovascular benefit": {
+            "bbox": [
+                [
+                    448.2981262207031,
+                    581.3920288085938,
+                    524.9661254882812,
+                    596.0440063476562
+                ],
+                [
+                    144.02000427246094,
+                    598.31201171875,
+                    180.4040069580078,
+                    612.9639892578125
+                ]
+            ],
+            "page": "page_1"
+        },
+        "contraindications": {
+            "bbox": [
+                [
+                    362.44403076171875,
+                    622.31201171875,
+                    453.22406005859375,
+                    636.9639892578125
+                ],
+                [
+                    362.44403076171875,
+                    622.31201171875,
+                    453.22406005859375,
+                    636.9639892578125
+                ]
+            ],
+            "page": "page_3"
+        },
+        "degenerative": {
+            "bbox": [
+                [
+                    206.0640106201172,
+                    472.5220031738281,
+                    272.34002685546875,
+                    487.17401123046875
+                ],
+                [
+                    206.0640106201172,
+                    472.5220031738281,
+                    272.34002685546875,
+                    487.17401123046875
+                ]
+            ],
+            "page": "page_3"
+        },
+        "elevated TSH": {
+            "bbox": [
+                [
+                    142.09201049804688,
+                    113.91199493408203,
+                    186.49200439453125,
+                    128.56399536132812
+                ],
+                [
+                    188.8800048828125,
+                    113.91199493408203,
+                    209.83200073242188,
+                    128.56399536132812
+                ]
+            ],
+            "page": "page_4"
+        },
+        "empty stomach": {
+            "bbox": [
+                [
+                    393.66802978515625,
+                    163.95196533203125,
+                    426.3560485839844,
+                    178.60397338867188
+                ],
+                [
+                    428.7320556640625,
+                    163.95196533203125,
+                    474.5240478515625,
+                    178.60397338867188
+                ]
+            ],
+            "page": "page_4"
+        },
+        "fasting blood glucose": {
+            "bbox": [
+                [
+                    232.447998046875,
+                    439.5220031738281,
+                    267.0559997558594,
+                    454.17401123046875
+                ],
+                [
+                    301.6759948730469,
+                    439.5220031738281,
+                    342.4159851074219,
+                    454.17401123046875
+                ]
+            ],
+            "page": "page_1"
+        },
+        "ferritin": {
+            "bbox": [
+                [
+                    207.739990234375,
+                    121.95197296142578,
+                    244.84397888183594,
+                    136.60397338867188
+                ],
+                [
+                    207.739990234375,
+                    121.95197296142578,
+                    244.84397888183594,
+                    136.60397338867188
+                ]
+            ],
+            "page": "page_3"
+        },
+        "non-comedogenic products": {
+            "bbox": [
+                [
+                    338.9840393066406,
+                    447.5619812011719,
+                    433.89398193359375,
+                    462.2139892578125
+                ],
+                [
+                    436.2699890136719,
+                    447.5619812011719,
+                    483.04595947265625,
+                    462.2139892578125
+                ]
+            ],
+            "page": "page_4"
+        },
+        "oral NSAIDs": {
+            "bbox": [
+                [
+                    273.6920166015625,
+                    622.31201171875,
+                    293.3840026855469,
+                    636.9639892578125
+                ],
+                [
+                    295.916015625,
+                    622.31201171875,
+                    335.41998291015625,
+                    636.9639892578125
+                ]
+            ],
+            "page": "page_3"
+        },
+        "pica": {
+            "bbox": [
+                [
+                    394.6280517578125,
+                    572.3920288085938,
+                    416.8400573730469,
+                    587.0440063476562
+                ],
+                [
+                    394.6280517578125,
+                    572.3920288085938,
+                    416.8400573730469,
+                    587.0440063476562
+                ]
+            ],
+            "page": "page_2"
+        },
+        "posture training": {
+            "bbox": [
+                [
+                    310.1300964355469,
+                    522.4419555664062,
+                    349.8981018066406,
+                    537.0939331054688
+                ],
+                [
+                    352.4421081542969,
+                    522.4419555664062,
+                    391.02215576171875,
+                    537.0939331054688
+                ]
+            ],
+            "page": "page_3"
+        },
+        "primary care provider": {
+            "bbox": [
+                [
+                    266.9280700683594,
+                    163.95196533203125,
+                    306.7440490722656,
+                    178.60397338867188
+                ],
+                [
+                    334.4280700683594,
+                    163.95196533203125,
+                    376.8240661621094,
+                    178.60397338867188
+                ]
+            ],
+            "page": "page_5"
+        },
+        "psychiatry": {
+            "bbox": [
+                [
+                    246.1400146484375,
+                    497.48199462890625,
+                    299.2760314941406,
+                    512.1339721679688
+                ],
+                [
+                    246.1400146484375,
+                    497.48199462890625,
+                    299.2760314941406,
+                    512.1339721679688
+                ]
+            ],
+            "page": "page_2"
+        },
+        "pustules": {
+            "bbox": [
+                [
+                    383.2820129394531,
+                    305.7019958496094,
+                    428.2340393066406,
+                    320.35400390625
+                ],
+                [
+                    383.2820129394531,
+                    305.7019958496094,
+                    428.2340393066406,
+                    320.35400390625
+                ]
+            ],
+            "page": "page_4"
+        },
+        "routine health screening": {
+            "bbox": [
+                [
+                    280.6680603027344,
+                    197.7919921875,
+                    317.4360656738281,
+                    212.44400024414062
+                ],
+                [
+                    355.14007568359375,
+                    197.7919921875,
+                    405.5881042480469,
+                    212.44400024414062
+                ]
+            ],
+            "page": "page_5"
+        }
+    }
+]

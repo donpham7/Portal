@@ -59,6 +59,7 @@ function PersonalTakeaway({ value }) {
 }
 
 function TaskItem({ taskName, taskData, onAccept, onDecline, onEdit }) {
+  console.log(taskName, taskData);
   return (
     <li
       style={{
@@ -68,12 +69,7 @@ function TaskItem({ taskName, taskData, onAccept, onDecline, onEdit }) {
       }}
     >
       <strong>{taskName}</strong>
-      <p>
-        <strong>Action:</strong> {taskData.action}
-      </p>
-      <p>
-        <strong>Purpose:</strong> {taskData.purpose}
-      </p>
+      <p>{taskData}</p>
     </li>
   );
 }

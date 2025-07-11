@@ -1,0 +1,310 @@
+[
+    {
+        "filename": "EMERGENCY DEPARTMENT DISCHARGE SUMMARY",
+        "key_details": {
+            "CBC": "complete blood count",
+            "EKG": "heart rhythm test",
+            "Orthostatic Blood Pressure Measurements": "blood pressure when changing positions (like lying to standing)",
+            "Syncope": "fainting episode",
+            "acute abnormalities": "sudden serious problems",
+            "ambulate independently": "walk on your own",
+            "arrhythmia": "irregular heartbeat",
+            "basic electrolyte panel": "blood salt and mineral test",
+            "benign cause": "a harmless reason",
+            "benign nature": "harmless type",
+            "cardiology": "heart doctor specialist",
+            "cardiovascular assessments": "heart and blood vessel checks",
+            "clinically significant": "medically important",
+            "convulsions": "seizures",
+            "echocardiogram": "ultrasound of the heart",
+            "emergent intervention": "urgent medical treatment",
+            "focal deficits": "specific weaknesses or problems",
+            "hemodynamically stable": "stable blood circulation and pressure",
+            "neurological assessments": "brain and nerve checks",
+            "neurology": "brain and nerve doctor specialist",
+            "normal sinus rhythm": "normal heart rhythm",
+            "outpatient testing": "tests done outside the hospital",
+            "palpitations": "feeling your heart race or skip beats",
+            "post-event confusion": "disorientation after the event",
+            "postural changes": "changes in body position",
+            "recurrence of symptoms": "symptoms returning",
+            "stroke": "brain injury from a blood clot or bleed",
+            "structural heart abnormality": "a physical heart defect",
+            "symptom resolution": "symptoms going away",
+            "tilt-table test": "a test to check blood pressure when changing positions",
+            "transient imbalance": "temporary disruption",
+            "underlying condition": "a hidden health problem",
+            "vasovagal syncope": "a common fainting type due to a nerve reflex"
+        },
+        "personal_takeaways": "Your recent fainting episode, diagnosed as vasovagal syncope, is considered a common and generally harmless event. Your medical evaluation confirmed no serious heart, brain, or nerve conditions were present, supporting your current healthy status."
+    },
+    {
+        "Avoid Quick Positional Changes": "Stand up slowly when going from sitting or lying down to prevent lightheadedness and fainting caused by a sudden drop in blood pressure.",
+        "Ensure Balanced Nutrition": "Eat regular meals and maintain a balanced diet to avoid low blood sugar or other imbalances that can trigger fainting episodes.",
+        "Maintain Hydration": "Drink plenty of fluids throughout the day to help prevent dehydration, which can cause fainting.",
+        "Prioritize Rest": "Make sure you get enough sleep and rest as needed to support your body's recovery and prevent fatigue that could lead to fainting.",
+        "Recognize Emergency - Chest Pain or Shortness of Breath": "Go to the emergency room immediately if you experience chest pain or difficulty breathing, as these are urgent symptoms requiring immediate medical attention.",
+        "Recognize Emergency - Fainting While Seated or Lying": "Go to the emergency room immediately if you faint again, especially if you are sitting or lying down when it happens, as fainting in these positions can indicate different underlying causes.",
+        "Recognize Emergency - Heart Palpitations or Rapid Heartbeat": "Go to the emergency room immediately if you feel your heart racing or skipping beats, as these heart rhythm changes need prompt medical evaluation.",
+        "Recognize Emergency - New Neurological Symptoms": "Go to the emergency room immediately if you experience any new problems with your brain or nerves, such as weakness or numbness, to ensure immediate evaluation for potential neurological concerns.",
+        "Recognize Emergency - Prolonged Confusion or Speech Difficulty": "Go to the emergency room immediately if you are confused for a long time or have trouble speaking after a fainting episode, as these symptoms could indicate a serious neurological issue.",
+        "Schedule Follow-Up Appointment": "Call your primary care provider to schedule a follow-up appointment within the next week to discuss your recent fainting episode and any further tests that might be helpful."
+    },
+    {
+        "EKG": {
+            "bbox": [
+                [
+                    378.7081298828125,
+                    333.6619873046875,
+                    400.2481384277344,
+                    348.3139953613281
+                ],
+                [
+                    378.7081298828125,
+                    333.6619873046875,
+                    400.2481384277344,
+                    348.3139953613281
+                ]
+            ],
+            "page": "page_1"
+        },
+        "Syncope": {
+            "bbox": [
+                [
+                    163.29603576660156,
+                    122.91199493408203,
+                    210.39602661132812,
+                    137.56399536132812
+                ],
+                [
+                    163.29603576660156,
+                    122.91199493408203,
+                    210.39602661132812,
+                    137.56399536132812
+                ]
+            ],
+            "page": "page_1"
+        },
+        "ambulate independently": {
+            "bbox": [
+                [
+                    109.82400512695312,
+                    172.83197021484375,
+                    159.38400268554688,
+                    187.48397827148438
+                ],
+                [
+                    161.82000732421875,
+                    172.83197021484375,
+                    236.18399047851562,
+                    187.48397827148438
+                ]
+            ],
+            "page": "page_2"
+        },
+        "basic electrolyte panel": {
+            "bbox": [
+                [
+                    391.0079650878906,
+                    350.5820007324219,
+                    419.1119689941406,
+                    365.2340087890625
+                ],
+                [
+                    479.0999755859375,
+                    350.5820007324219,
+                    508.21197509765625,
+                    365.2340087890625
+                ]
+            ],
+            "page": "page_1"
+        },
+        "benign cause": {
+            "bbox": [
+                [
+                    502.7020263671875,
+                    651.2319946289062,
+                    537.741943359375,
+                    665.8839721679688
+                ],
+                [
+                    72.02400207519531,
+                    668.1519775390625,
+                    103.42800903320312,
+                    682.803955078125
+                ]
+            ],
+            "page": "page_1"
+        },
+        "benign nature": {
+            "bbox": [
+                [
+                    268.8121032714844,
+                    189.87200927734375,
+                    303.73211669921875,
+                    204.52401733398438
+                ],
+                [
+                    306.1201171875,
+                    189.87200927734375,
+                    339.79217529296875,
+                    204.52401733398438
+                ]
+            ],
+            "page": "page_2"
+        },
+        "cardiology": {
+            "bbox": [
+                [
+                    267.72003173828125,
+                    400.5019836425781,
+                    321.44403076171875,
+                    415.15399169921875
+                ],
+                [
+                    267.72003173828125,
+                    400.5019836425781,
+                    321.44403076171875,
+                    415.15399169921875
+                ]
+            ],
+            "page": "page_2"
+        },
+        "clinically significant": {
+            "bbox": [
+                [
+                    197.67201232910156,
+                    534.3219604492188,
+                    243.6079864501953,
+                    548.9739379882812
+                ],
+                [
+                    245.98399353027344,
+                    534.3219604492188,
+                    299.552001953125,
+                    548.9739379882812
+                ]
+            ],
+            "page": "page_1"
+        },
+        "emergent intervention": {
+            "bbox": [
+                [
+                    119.6520004272461,
+                    273.781982421875,
+                    168.9840087890625,
+                    288.4339904785156
+                ],
+                [
+                    171.37200927734375,
+                    273.781982421875,
+                    233.43600463867188,
+                    288.4339904785156
+                ]
+            ],
+            "page": "page_2"
+        },
+        "focal deficits": {
+            "bbox": [
+                [
+                    258.75799560546875,
+                    584.27197265625,
+                    284.5699768066406,
+                    598.9239501953125
+                ],
+                [
+                    286.9579772949219,
+                    584.27197265625,
+                    325.333984375,
+                    598.9239501953125
+                ]
+            ],
+            "page": "page_1"
+        },
+        "hemodynamically stable": {
+            "bbox": [
+                [
+                    433.05609130859375,
+                    172.83197021484375,
+                    525.1200561523438,
+                    187.48397827148438
+                ],
+                [
+                    72.02400207519531,
+                    189.87200927734375,
+                    104.1600112915039,
+                    204.52401733398438
+                ]
+            ],
+            "page": "page_2"
+        },
+        "neurology": {
+            "bbox": [
+                [
+                    336.9240417480469,
+                    400.5019836425781,
+                    388.1280517578125,
+                    415.15399169921875
+                ],
+                [
+                    336.9240417480469,
+                    400.5019836425781,
+                    388.1280517578125,
+                    415.15399169921875
+                ]
+            ],
+            "page": "page_2"
+        },
+        "normal sinus rhythm": {
+            "bbox": [
+                [
+                    445.6441650390625,
+                    333.6619873046875,
+                    482.5921325683594,
+                    348.3139953613281
+                ],
+                [
+                    72.02400207519531,
+                    350.5820007324219,
+                    108.76801300048828,
+                    365.2340087890625
+                ]
+            ],
+            "page": "page_1"
+        },
+        "outpatient testing": {
+            "bbox": [
+                [
+                    370.884033203125,
+                    484.4020080566406,
+                    424.56005859375,
+                    499.05401611328125
+                ],
+                [
+                    426.9600524902344,
+                    484.4020080566406,
+                    462.0000915527344,
+                    499.05401611328125
+                ]
+            ],
+            "page": "page_2"
+        },
+        "structural heart abnormality": {
+            "bbox": [
+                [
+                    444.0481262207031,
+                    72.03199005126953,
+                    494.2921142578125,
+                    86.68399047851562
+                ],
+                [
+                    72.02400207519531,
+                    88.95197296142578,
+                    134.19601440429688,
+                    103.60397338867188
+                ]
+            ],
+            "page": "page_2"
+        }
+    }
+]
