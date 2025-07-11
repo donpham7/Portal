@@ -55,11 +55,7 @@ export default function PatientDashboard() {
             </p>
           </div>
           {reports.map((report, index) => (
-            <Link
-              to={`report/${report.report_id}`}
-              key={index}
-              className="panel-block"
-            >
+            <Link to={`report/${report.report_id}`} className="panel-block">
               <span className="panel-icon">
                 <i className="fas fa-home" aria-hidden="true"></i>
               </span>
